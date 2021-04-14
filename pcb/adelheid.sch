@@ -25,7 +25,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J1
+L adelheid-rescue:USB_B_Micro-Connector J1
 U 1 1 5C4B21E5
 P 1000 4800
 F 0 "J1" H 1055 5267 50  0000 C CNN
