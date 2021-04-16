@@ -39,39 +39,13 @@ F 3 "~" H 4700 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	11600 2500 11600 2600
-Wire Wire Line
-	10850 2500 10850 2600
-Wire Wire Line
-	10850 2150 10850 2200
-Wire Wire Line
 	12200 2500 12200 2550
 Wire Wire Line
 	12950 2200 13000 2200
 Wire Wire Line
 	9950 2500 9950 2550
 Wire Wire Line
-	13100 2500 13100 2600
-Wire Wire Line
-	12350 2150 12350 2200
-Wire Wire Line
-	11600 2150 11600 2200
-Wire Wire Line
-	12300 2150 12350 2150
-Wire Wire Line
-	11550 2150 11600 2150
-Wire Wire Line
-	10800 2150 10850 2150
-Wire Wire Line
-	10100 2500 10100 2600
-Wire Wire Line
-	10050 2150 10100 2150
-Wire Wire Line
-	10100 2150 10100 2200
-Wire Wire Line
 	11450 2500 11450 2550
-Wire Wire Line
-	13050 2150 13100 2150
 Wire Wire Line
 	12950 2500 12950 2550
 Wire Wire Line
@@ -83,61 +57,27 @@ Wire Wire Line
 Wire Wire Line
 	12200 2200 12250 2200
 Wire Wire Line
-	12350 2500 12350 2600
-Wire Wire Line
-	13100 2150 13100 2200
-Wire Wire Line
 	11450 2200 11500 2200
 Wire Wire Line
 	7700 2500 7700 2550
 Wire Wire Line
-	6350 2500 6350 2600
-Wire Wire Line
 	7700 2200 7750 2200
-Wire Wire Line
-	7050 2150 7100 2150
-Wire Wire Line
-	7850 2150 7850 2200
-Wire Wire Line
-	7100 2150 7100 2200
-Wire Wire Line
-	7100 2500 7100 2600
 Wire Wire Line
 	8450 2200 8500 2200
 Wire Wire Line
 	9200 2200 9250 2200
 Wire Wire Line
-	9300 2150 9350 2150
-Wire Wire Line
 	9200 2500 9200 2550
 Wire Wire Line
-	8600 2500 8600 2600
-Wire Wire Line
-	6300 2150 6350 2150
-Wire Wire Line
 	8450 2500 8450 2550
-Wire Wire Line
-	7800 2150 7850 2150
-Wire Wire Line
-	9350 2150 9350 2200
-Wire Wire Line
-	8600 2150 8600 2200
-Wire Wire Line
-	7850 2500 7850 2600
-Wire Wire Line
-	9350 2500 9350 2600
 Wire Wire Line
 	6950 2200 7000 2200
 Wire Wire Line
 	6200 2500 6200 2550
 Wire Wire Line
-	6350 2150 6350 2200
-Wire Wire Line
 	6950 2500 6950 2550
 Wire Wire Line
 	6200 2200 6250 2200
-Wire Wire Line
-	8550 2150 8600 2150
 Wire Wire Line
 	4700 2500 4700 2550
 Wire Wire Line
@@ -145,28 +85,9 @@ Wire Wire Line
 Wire Wire Line
 	4700 2200 4750 2200
 Wire Wire Line
-	5600 2500 5600 2600
-Wire Wire Line
-	5550 2150 5600 2150
-Wire Wire Line
-	5600 2150 5600 2200
-Wire Wire Line
 	5450 2500 5450 2550
 Wire Wire Line
-	5700 1500 5700 2000
-Wire Wire Line
 	6450 1500 6450 2000
-$Comp
-L Device:R RL46
-U 1 1 5ECD83AA
-P 10100 2350
-F 0 "RL46" H 10170 2395 50  0000 L CNN
-F 1 "R" H 10170 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10030 2350 50  0001 C CNN
-F 3 "~" H 10100 2350 50  0001 C CNN
-	1    10100 2350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D D29
 U 1 1 5ECD4B4C
@@ -201,70 +122,15 @@ F 3 "~" H 6950 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R RL12
-U 1 1 5ECD0BC4
-P 5600 2350
-F 0 "RL12" H 5670 2395 50  0000 L CNN
-F 1 "R" H 5670 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 2350 50  0001 C CNN
-F 3 "~" H 5600 2350 50  0001 C CNN
-	1    5600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL29
-U 1 1 5ECD4B30
-P 7850 2350
-F 0 "RL29" H 7920 2395 50  0000 L CNN
-F 1 "R" H 7920 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7780 2350 50  0001 C CNN
-F 3 "~" H 7850 2350 50  0001 C CNN
-	1    7850 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL23
-U 1 1 5ECD329C
-P 7100 2350
-F 0 "RL23" H 7170 2395 50  0000 L CNN
-F 1 "R" H 7170 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 2350 50  0001 C CNN
-F 3 "~" H 7100 2350 50  0001 C CNN
-	1    7100 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL18
-U 1 1 5ECD21E8
-P 6350 2350
-F 0 "RL18" H 6420 2395 50  0000 L CNN
-F 1 "R" H 6420 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6280 2350 50  0001 C CNN
-F 3 "~" H 6350 2350 50  0001 C CNN
-	1    6350 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D12
+L Device:D D13
 U 1 1 5ECD0BE0
 P 5450 2350
-F 0 "D12" V 5500 2550 50  0000 R CNN
+F 0 "D13" V 5500 2550 50  0000 R CNN
 F 1 "D" V 5400 2500 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 5450 2350 50  0001 C CNN
 F 3 "~" H 5450 2350 50  0001 C CNN
 	1    5450 2350
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL62
-U 1 1 5ECDB0B6
-P 12350 2350
-F 0 "RL62" H 12420 2395 50  0000 L CNN
-F 1 "R" H 12420 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12280 2350 50  0001 C CNN
-F 3 "~" H 12350 2350 50  0001 C CNN
-	1    12350 2350
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D18
@@ -289,28 +155,6 @@ F 3 "~" H 11450 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R RL57
-U 1 1 5ECDA332
-P 11600 2350
-F 0 "RL57" H 11670 2395 50  0000 L CNN
-F 1 "R" H 11670 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11530 2350 50  0001 C CNN
-F 3 "~" H 11600 2350 50  0001 C CNN
-	1    11600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL35
-U 1 1 5ECD5D04
-P 8600 2350
-F 0 "RL35" H 8670 2395 50  0000 L CNN
-F 1 "R" H 8670 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 2350 50  0001 C CNN
-F 3 "~" H 8600 2350 50  0001 C CNN
-	1    8600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D51
 U 1 1 5ECD914A
 P 10700 2350
@@ -320,17 +164,6 @@ F 2 "Diode_SMD:D_SOD-123" H 10700 2350 50  0001 C CNN
 F 3 "~" H 10700 2350 50  0001 C CNN
 	1    10700 2350
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL51
-U 1 1 5ECD912E
-P 10850 2350
-F 0 "RL51" H 10920 2395 50  0000 L CNN
-F 1 "R" H 10920 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10780 2350 50  0001 C CNN
-F 3 "~" H 10850 2350 50  0001 C CNN
-	1    10850 2350
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D46
@@ -354,25 +187,12 @@ F 3 "~" H 9200 2350 50  0001 C CNN
 	1    9200 2350
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R RL40
-U 1 1 5ECD71A6
-P 9350 2350
-F 0 "RL40" H 9420 2395 50  0000 L CNN
-F 1 "R" H 9420 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9280 2350 50  0001 C CNN
-F 3 "~" H 9350 2350 50  0001 C CNN
-	1    9350 2350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4950 1500 4950 2000
 Wire Wire Line
 	10950 1500 10950 2000
 Wire Wire Line
 	11700 1500 11700 2000
-Wire Wire Line
-	13200 1500 13200 2000
 Wire Wire Line
 	12450 1500 12450 2000
 Wire Wire Line
@@ -383,8 +203,6 @@ Wire Wire Line
 	9450 1500 9450 2000
 Wire Wire Line
 	8700 1500 8700 2000
-Wire Wire Line
-	10200 1500 10200 2000
 $Comp
 L ai03-schematic_library:MX-NoLED MX7
 U 1 1 5EC3AC28
@@ -397,45 +215,23 @@ F 3 "" H 4175 2025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX40
+L ai03-schematic_library:MX-NoLED MX40
 U 1 1 5EC4231C
 P 9300 2050
 F 0 "MX40" H 9382 2273 60  0000 C CNN
 F 1 "MX-LED" H 9382 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 8675 2025 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 8675 2025 60  0001 C CNN
 F 3 "" H 8675 2025 60  0001 C CNN
 	1    9300 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX12
-U 1 1 5EC3FF08
-P 5550 2050
-F 0 "MX12" H 5632 2273 60  0000 C CNN
-F 1 "MX-LED" H 5632 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 4925 2025 60  0001 C CNN
-F 3 "" H 4925 2025 60  0001 C CNN
-	1    5550 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX67
-U 1 1 5EC48A14
-P 13050 2050
-F 0 "MX67" H 13132 2273 60  0000 C CNN
-F 1 "MX-LED" H 13132 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 12425 2025 60  0001 C CNN
-F 3 "" H 12425 2025 60  0001 C CNN
-	1    13050 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX35
+L ai03-schematic_library:MX-NoLED MX35
 U 1 1 5EC42350
 P 8550 2050
 F 0 "MX35" H 8632 2273 60  0000 C CNN
 F 1 "MX-LED" H 8632 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 7925 2025 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 7925 2025 60  0001 C CNN
 F 3 "" H 7925 2025 60  0001 C CNN
 	1    8550 2050
 	1    0    0    -1  
@@ -452,78 +248,67 @@ F 3 "~" H 12200 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX62
+L ai03-schematic_library:MX-NoLED MX62
 U 1 1 5EC45EF8
 P 12300 2050
 F 0 "MX62" H 12382 2273 60  0000 C CNN
 F 1 "MX-LED" H 12382 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 11675 2025 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 11675 2025 60  0001 C CNN
 F 3 "" H 11675 2025 60  0001 C CNN
 	1    12300 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX23
+L ai03-schematic_library:MX-NoLED MX23
 U 1 1 5EC42384
 P 7050 2050
 F 0 "MX23" H 7132 2273 60  0000 C CNN
 F 1 "MX-LED" H 7132 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 6425 2025 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 6425 2025 60  0001 C CNN
 F 3 "" H 6425 2025 60  0001 C CNN
 	1    7050 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX29
+L ai03-schematic_library:MX-NoLED MX29
 U 1 1 5EC423B8
 P 7800 2050
 F 0 "MX29" H 7882 2273 60  0000 C CNN
 F 1 "MX-LED" H 7882 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 7175 2025 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 7175 2025 60  0001 C CNN
 F 3 "" H 7175 2025 60  0001 C CNN
 	1    7800 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX18
+L ai03-schematic_library:MX-NoLED MX18
 U 1 1 5EC3FF3C
 P 6300 2050
 F 0 "MX18" H 6382 2273 60  0000 C CNN
-F 1 "MX-LED" H 6382 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 5675 2025 60  0001 C CNN
+F 1 "MX-1" H 6382 2199 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 5675 2025 60  0001 C CNN
 F 3 "" H 5675 2025 60  0001 C CNN
 	1    6300 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX46
-U 1 1 5EC45F60
-P 10050 2050
-F 0 "MX46" H 10132 2273 60  0000 C CNN
-F 1 "MX-LED" H 10132 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 9425 2025 60  0001 C CNN
-F 3 "" H 9425 2025 60  0001 C CNN
-	1    10050 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX51
+L ai03-schematic_library:MX-NoLED MX51
 U 1 1 5EC45F94
 P 10800 2050
 F 0 "MX51" H 10882 2273 60  0000 C CNN
 F 1 "MX-LED" H 10882 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 10175 2025 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 10175 2025 60  0001 C CNN
 F 3 "" H 10175 2025 60  0001 C CNN
 	1    10800 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX57
+L ai03-schematic_library:MX-NoLED MX57
 U 1 1 5EC45F2C
 P 11550 2050
 F 0 "MX57" H 11632 2273 60  0000 C CNN
 F 1 "MX-LED" H 11632 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 10925 2025 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 10925 2025 60  0001 C CNN
 F 3 "" H 10925 2025 60  0001 C CNN
 	1    11550 2050
 	1    0    0    -1  
@@ -550,110 +335,35 @@ F 3 "~" H 12950 2350 50  0001 C CNN
 	1    12950 2350
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R RL67
-U 1 1 5ECDC19A
-P 13100 2350
-F 0 "RL67" H 13170 2395 50  0000 L CNN
-F 1 "R" H 13170 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13030 2350 50  0001 C CNN
-F 3 "~" H 13100 2350 50  0001 C CNN
-	1    13100 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13850 2150 13850 2200
 Wire Wire Line
 	13700 2500 13700 2550
 Wire Wire Line
-	14450 2200 14500 2200
-Wire Wire Line
 	14450 2500 14450 2550
-Wire Wire Line
-	14600 2150 14600 2200
-Wire Wire Line
-	13850 2500 13850 2600
-Wire Wire Line
-	14600 2500 14600 2600
 Wire Wire Line
 	13700 2200 13750 2200
 Wire Wire Line
-	14550 2150 14600 2150
-Wire Wire Line
-	13800 2150 13850 2150
-Wire Wire Line
-	14700 1500 14700 2000
-Wire Wire Line
 	13950 1500 13950 2000
 $Comp
-L ai03-schematic_library:MX-LED MX72
+L ai03-schematic_library:MX-NoLED MX72
 U 1 1 5EC48A48
 P 13800 2050
 F 0 "MX72" H 13882 2273 60  0000 C CNN
 F 1 "MX-LED" H 13882 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 13175 2025 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 13175 2025 60  0001 C CNN
 F 3 "" H 13175 2025 60  0001 C CNN
 	1    13800 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX77
-U 1 1 5EC489E0
-P 14550 2050
-F 0 "MX77" H 14632 2273 60  0000 C CNN
-F 1 "MX-LED" H 14632 2199 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 13925 2025 60  0001 C CNN
-F 3 "" H 13925 2025 60  0001 C CNN
-	1    14550 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL77
-U 1 1 5ECDEF02
-P 14600 2350
-F 0 "RL77" H 14670 2395 50  0000 L CNN
-F 1 "R" H 14670 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14530 2350 50  0001 C CNN
-F 3 "~" H 14600 2350 50  0001 C CNN
-	1    14600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL72
-U 1 1 5ECDD7EE
-P 13850 2350
-F 0 "RL72" H 13920 2395 50  0000 L CNN
-F 1 "R" H 13920 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13780 2350 50  0001 C CNN
-F 3 "~" H 13850 2350 50  0001 C CNN
-	1    13850 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D77
-U 1 1 5ECDEF1E
-P 14450 2350
-F 0 "D77" V 14500 2550 50  0000 R CNN
-F 1 "D" V 14400 2500 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 14450 2350 50  0001 C CNN
-F 3 "~" H 14450 2350 50  0001 C CNN
-	1    14450 2350
-	0    -1   -1   0   
-$EndComp
 Connection ~ 4950 2000
-Connection ~ 5700 2000
 Connection ~ 6450 2000
 Connection ~ 7200 2000
 Connection ~ 7950 2000
 Connection ~ 8700 2000
 Connection ~ 9450 2000
-Connection ~ 10200 2000
 Connection ~ 10950 2000
 Connection ~ 11700 2000
 Connection ~ 12450 2000
-Connection ~ 13200 2000
 Connection ~ 13950 2000
-Connection ~ 14700 2000
 Connection ~ 4700 2550
 Wire Wire Line
 	4700 2550 5450 2550
@@ -691,43 +401,6 @@ Wire Wire Line
 Connection ~ 13700 2550
 Wire Wire Line
 	13700 2550 14450 2550
-Wire Wire Line
-	5600 2600 6350 2600
-Connection ~ 6350 2600
-Wire Wire Line
-	6350 2600 7100 2600
-Connection ~ 7100 2600
-Wire Wire Line
-	7100 2600 7850 2600
-Connection ~ 7850 2600
-Wire Wire Line
-	7850 2600 8600 2600
-Connection ~ 8600 2600
-Wire Wire Line
-	8600 2600 9350 2600
-Connection ~ 9350 2600
-Wire Wire Line
-	9350 2600 10100 2600
-Connection ~ 10100 2600
-Wire Wire Line
-	10100 2600 10850 2600
-Connection ~ 10850 2600
-Wire Wire Line
-	10850 2600 11600 2600
-Connection ~ 11600 2600
-Wire Wire Line
-	11600 2600 12350 2600
-Connection ~ 12350 2600
-Wire Wire Line
-	12350 2600 13100 2600
-Connection ~ 13100 2600
-Wire Wire Line
-	13100 2600 13850 2600
-Connection ~ 13850 2600
-Wire Wire Line
-	13850 2600 14600 2600
-Wire Wire Line
-	5650 1550 5650 2050
 Text HLabel 7950 1500 1    50   3State ~ 0
 col5
 Text HLabel 6450 1500 1    50   3State ~ 0
@@ -760,122 +433,16 @@ Text HLabel 4200 1500 1    50   3State ~ 0
 col0
 Wire Wire Line
 	6200 2550 6950 2550
-Connection ~ 5650 2050
-Wire Wire Line
-	5650 1550 6400 1550
-Wire Wire Line
-	6400 1550 6400 2050
-Connection ~ 5650 1550
-Connection ~ 6400 2050
-Wire Wire Line
-	6400 1550 7150 1550
-Wire Wire Line
-	7150 1550 7150 2050
-Connection ~ 6400 1550
-Connection ~ 7150 2050
-Wire Wire Line
-	7150 1550 7900 1550
-Wire Wire Line
-	7900 1550 7900 2050
-Connection ~ 7150 1550
-Connection ~ 7900 2050
-Wire Wire Line
-	7900 1550 8650 1550
-Wire Wire Line
-	8650 1550 8650 2050
-Connection ~ 7900 1550
-Connection ~ 8650 2050
-Wire Wire Line
-	8650 1550 9400 1550
-Wire Wire Line
-	9400 1550 9400 2050
-Connection ~ 8650 1550
-Connection ~ 9400 2050
-Wire Wire Line
-	9400 1550 10150 1550
-Wire Wire Line
-	10150 1550 10150 2050
-Connection ~ 9400 1550
-Connection ~ 10150 2050
-Wire Wire Line
-	10150 1550 10900 1550
-Wire Wire Line
-	10900 1550 10900 2050
-Connection ~ 10150 1550
-Connection ~ 10900 2050
-Wire Wire Line
-	10900 1550 11650 1550
-Wire Wire Line
-	11650 1550 11650 2050
-Connection ~ 10900 1550
-Connection ~ 11650 2050
-Wire Wire Line
-	11650 1550 12400 1550
-Wire Wire Line
-	12400 1550 12400 2050
-Connection ~ 11650 1550
-Connection ~ 12400 2050
-Wire Wire Line
-	12400 1550 13150 1550
-Wire Wire Line
-	13150 1550 13150 2050
-Connection ~ 12400 1550
-Connection ~ 13150 2050
-Wire Wire Line
-	13150 1550 13900 1550
-Wire Wire Line
-	13900 1550 13900 2050
-Connection ~ 13150 1550
-Connection ~ 13900 2050
-Wire Wire Line
-	13900 1550 14650 1550
-Wire Wire Line
-	14650 1550 14650 2050
-Connection ~ 13900 1550
-Connection ~ 14650 2050
 $Comp
 L Device:D D78
 U 1 1 5EE42854
-P 14450 3300
-F 0 "D78" V 14500 3500 50  0000 R CNN
-F 1 "D" V 14400 3450 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 14450 3300 50  0001 C CNN
-F 3 "~" H 14450 3300 50  0001 C CNN
-	1    14450 3300
+P 14450 2350
+F 0 "D78" V 14500 2550 50  0000 R CNN
+F 1 "D" V 14400 2500 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 14450 2350 50  0001 C CNN
+F 3 "~" H 14450 2350 50  0001 C CNN
+	1    14450 2350
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL68
-U 1 1 5EE42874
-P 13100 3300
-F 0 "RL68" H 13170 3345 50  0000 L CNN
-F 1 "R" H 13170 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13030 3300 50  0001 C CNN
-F 3 "~" H 13100 3300 50  0001 C CNN
-	1    13100 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL73
-U 1 1 5EE42890
-P 13850 3300
-F 0 "RL73" H 13920 3345 50  0000 L CNN
-F 1 "R" H 13920 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13780 3300 50  0001 C CNN
-F 3 "~" H 13850 3300 50  0001 C CNN
-	1    13850 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL78
-U 1 1 5EE428AC
-P 14600 3300
-F 0 "RL78" H 14670 3345 50  0000 L CNN
-F 1 "R" H 14670 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14530 3300 50  0001 C CNN
-F 3 "~" H 14600 3300 50  0001 C CNN
-	1    14600 3300
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D68
@@ -891,12 +458,12 @@ $EndComp
 $Comp
 L Device:D D73
 U 1 1 5EE428E8
-P 13700 3300
-F 0 "D73" V 13750 3500 50  0000 R CNN
-F 1 "D" V 13650 3450 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 13700 3300 50  0001 C CNN
-F 3 "~" H 13700 3300 50  0001 C CNN
-	1    13700 3300
+P 13700 4250
+F 0 "D73" V 13750 4450 50  0000 R CNN
+F 1 "D" V 13650 4400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13700 4250 50  0001 C CNN
+F 3 "~" H 13700 4250 50  0001 C CNN
+	1    13700 4250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -908,8 +475,6 @@ Wire Wire Line
 Wire Wire Line
 	12950 3500 13700 3500
 Wire Wire Line
-	6200 3500 6950 3500
-Wire Wire Line
 	9200 3500 9950 3500
 Wire Wire Line
 	9950 3500 10700 3500
@@ -920,177 +485,104 @@ Wire Wire Line
 Wire Wire Line
 	13700 3500 14450 3500
 Wire Wire Line
-	4850 3550 5600 3550
-Wire Wire Line
-	7850 3550 8600 3550
-Wire Wire Line
-	11450 3500 12200 3500
-Wire Wire Line
-	5600 3550 6350 3550
-Wire Wire Line
-	8600 3550 9350 3550
-Wire Wire Line
-	9350 3550 10100 3550
-Wire Wire Line
-	10100 3550 10850 3550
-Wire Wire Line
 	3950 3500 4700 3500
-Wire Wire Line
-	7100 3550 7850 3550
 Wire Wire Line
 	4700 3500 5450 3500
 Wire Wire Line
 	6950 3500 7700 3500
-Wire Wire Line
-	6350 3550 7100 3550
-Wire Wire Line
-	12350 3550 13100 3550
-Wire Wire Line
-	11600 3550 12350 3550
-Wire Wire Line
-	10850 3550 11600 3550
-Wire Wire Line
-	13100 3550 13850 3550
-Wire Wire Line
-	13850 3550 14600 3550
-Connection ~ 9400 3000
-Connection ~ 10150 3000
-Connection ~ 8650 3000
-Connection ~ 12400 3000
-Connection ~ 6400 3000
-Connection ~ 11650 3000
-Connection ~ 13150 3000
-Connection ~ 7900 3000
-Connection ~ 10900 3000
-Connection ~ 14650 3000
-Connection ~ 5650 3000
-Connection ~ 7150 3000
-Connection ~ 13900 3000
 Connection ~ 5450 3500
 Connection ~ 6450 2950
-Connection ~ 12350 3550
 Connection ~ 13700 3500
 Connection ~ 7200 2950
-Connection ~ 6350 3550
 Connection ~ 3950 3500
 Connection ~ 10700 3500
-Connection ~ 8700 2950
 Connection ~ 12450 2950
 Connection ~ 4700 3500
-Connection ~ 6950 3500
-Connection ~ 12200 3500
 Connection ~ 7700 3500
-Connection ~ 13100 3550
 Connection ~ 8450 3500
-Connection ~ 13850 3550
-Connection ~ 7100 3550
 Connection ~ 4200 2950
 Connection ~ 10950 2950
-Connection ~ 13950 2950
 Connection ~ 9950 3500
-Connection ~ 14700 2950
-Connection ~ 8600 3550
-Connection ~ 11600 3550
-Connection ~ 7850 3550
 Connection ~ 10200 2950
-Connection ~ 11450 3500
-Connection ~ 4950 2950
 Connection ~ 12950 3500
-Connection ~ 7950 2950
-Connection ~ 9350 3550
-Connection ~ 5600 3550
 Connection ~ 9200 3500
 Connection ~ 11700 2950
 Connection ~ 9450 2950
 Connection ~ 13200 2950
-Connection ~ 6200 3500
 Connection ~ 5700 2950
-Connection ~ 10100 3550
-Connection ~ 10850 3550
 $Comp
-L ai03-schematic_library:MX-LED MX58
+L ai03-schematic_library:MX-NoLED MX58
 U 1 1 5EE4296D
 P 11550 3000
 F 0 "MX58" H 11632 3223 60  0000 C CNN
 F 1 "MX-LED" H 11632 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 10925 2975 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 10925 2975 60  0001 C CNN
 F 3 "" H 10925 2975 60  0001 C CNN
 	1    11550 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX52
+L ai03-schematic_library:MX-NoLED MX52
 U 1 1 5EE429A1
 P 10800 3000
 F 0 "MX52" H 10882 3223 60  0000 C CNN
 F 1 "MX-LED" H 10882 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 10175 2975 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 10175 2975 60  0001 C CNN
 F 3 "" H 10175 2975 60  0001 C CNN
 	1    10800 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX47
+L ai03-schematic_library:MX-NoLED MX47
 U 1 1 5EE429D5
 P 10050 3000
 F 0 "MX47" H 10132 3223 60  0000 C CNN
 F 1 "MX-LED" H 10132 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 9425 2975 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 9425 2975 60  0001 C CNN
 F 3 "" H 9425 2975 60  0001 C CNN
 	1    10050 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX78
+L ai03-schematic_library:MX-NoLED MX78
 U 1 1 5EE42A09
-P 14550 3000
-F 0 "MX78" H 14632 3223 60  0000 C CNN
-F 1 "MX-LED" H 14632 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 13925 2975 60  0001 C CNN
-F 3 "" H 13925 2975 60  0001 C CNN
-	1    14550 3000
+P 14550 2050
+F 0 "MX78" H 14632 2273 60  0000 C CNN
+F 1 "MX-LED" H 14632 2199 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1.5U-NoLED" H 13925 2025 60  0001 C CNN
+F 3 "" H 13925 2025 60  0001 C CNN
+	1    14550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX19
+L ai03-schematic_library:MX-NoLED MX19
 U 1 1 5EE42A3D
 P 6300 3000
 F 0 "MX19" H 6382 3223 60  0000 C CNN
-F 1 "MX-LED" H 6382 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 5675 2975 60  0001 C CNN
+F 1 "MX-1" H 6382 3149 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 5675 2975 60  0001 C CNN
 F 3 "" H 5675 2975 60  0001 C CNN
 	1    6300 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX30
-U 1 1 5EE42A71
-P 7800 3000
-F 0 "MX30" H 7882 3223 60  0000 C CNN
-F 1 "MX-LED" H 7882 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 7175 2975 60  0001 C CNN
-F 3 "" H 7175 2975 60  0001 C CNN
-	1    7800 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX24
+L ai03-schematic_library:MX-NoLED MX24
 U 1 1 5EE42AA5
 P 7050 3000
 F 0 "MX24" H 7132 3223 60  0000 C CNN
 F 1 "MX-LED" H 7132 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 6425 2975 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 6425 2975 60  0001 C CNN
 F 3 "" H 6425 2975 60  0001 C CNN
 	1    7050 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX63
+L ai03-schematic_library:MX-NoLED MX63
 U 1 1 5EE42AD9
 P 12300 3000
 F 0 "MX63" H 12382 3223 60  0000 C CNN
 F 1 "MX-LED" H 12382 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 11675 2975 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 11675 2975 60  0001 C CNN
 F 3 "" H 11675 2975 60  0001 C CNN
 	1    12300 3000
 	1    0    0    -1  
@@ -1107,56 +599,45 @@ F 3 "~" H 12200 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX73
+L ai03-schematic_library:MX-NoLED MX73
 U 1 1 5EE42B2D
-P 13800 3000
-F 0 "MX73" H 13882 3223 60  0000 C CNN
-F 1 "MX-LED" H 13882 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 13175 2975 60  0001 C CNN
-F 3 "" H 13175 2975 60  0001 C CNN
-	1    13800 3000
+P 13800 3950
+F 0 "MX73" H 13882 4173 60  0000 C CNN
+F 1 "MX-LED" H 13882 4099 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 13175 3925 60  0001 C CNN
+F 3 "" H 13175 3925 60  0001 C CNN
+	1    13800 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX36
-U 1 1 5EE42B61
-P 8550 3000
-F 0 "MX36" H 8632 3223 60  0000 C CNN
-F 1 "MX-LED" H 8632 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 7925 2975 60  0001 C CNN
-F 3 "" H 7925 2975 60  0001 C CNN
-	1    8550 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX68
+L ai03-schematic_library:MX-NoLED MX68
 U 1 1 5EE42B95
 P 13050 3000
 F 0 "MX68" H 13132 3223 60  0000 C CNN
 F 1 "MX-LED" H 13132 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 12425 2975 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 12425 2975 60  0001 C CNN
 F 3 "" H 12425 2975 60  0001 C CNN
 	1    13050 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX13
+L ai03-schematic_library:MX-NoLED MX14
 U 1 1 5EE42BC9
 P 5550 3000
-F 0 "MX13" H 5632 3223 60  0000 C CNN
-F 1 "MX-LED" H 5632 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 4925 2975 60  0001 C CNN
+F 0 "MX14" H 5632 3223 60  0000 C CNN
+F 1 "MX-1" H 5632 3149 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 4925 2975 60  0001 C CNN
 F 3 "" H 4925 2975 60  0001 C CNN
 	1    5550 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX41
+L ai03-schematic_library:MX-NoLED MX41
 U 1 1 5EE42BFD
 P 9300 3000
 F 0 "MX41" H 9382 3223 60  0000 C CNN
 F 1 "MX-LED" H 9382 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 8675 2975 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 8675 2975 60  0001 C CNN
 F 3 "" H 8675 2975 60  0001 C CNN
 	1    9300 3000
 	1    0    0    -1  
@@ -1173,17 +654,6 @@ F 3 "" H 3425 2975 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX8
-U 1 1 5EE42C65
-P 4800 3000
-F 0 "MX8" H 4882 3223 60  0000 C CNN
-F 1 "MX-LED" H 4882 3149 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 4175 2975 60  0001 C CNN
-F 3 "" H 4175 2975 60  0001 C CNN
-	1    4800 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D8
 U 1 1 5EE42CA4
 P 4700 3300
@@ -1193,17 +663,6 @@ F 2 "Diode_SMD:D_SOD-123" H 4700 3300 50  0001 C CNN
 F 3 "~" H 4700 3300 50  0001 C CNN
 	1    4700 3300
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL41
-U 1 1 5EE42CC4
-P 9350 3300
-F 0 "RL41" H 9420 3345 50  0000 L CNN
-F 1 "R" H 9420 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9280 3300 50  0001 C CNN
-F 3 "~" H 9350 3300 50  0001 C CNN
-	1    9350 3300
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D41
@@ -1228,17 +687,6 @@ F 3 "~" H 9950 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R RL52
-U 1 1 5EE42D20
-P 10850 3300
-F 0 "RL52" H 10920 3345 50  0000 L CNN
-F 1 "R" H 10920 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10780 3300 50  0001 C CNN
-F 3 "~" H 10850 3300 50  0001 C CNN
-	1    10850 3300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D52
 U 1 1 5EE42D3C
 P 10700 3300
@@ -1248,28 +696,6 @@ F 2 "Diode_SMD:D_SOD-123" H 10700 3300 50  0001 C CNN
 F 3 "~" H 10700 3300 50  0001 C CNN
 	1    10700 3300
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL36
-U 1 1 5EE42D5C
-P 8600 3300
-F 0 "RL36" H 8670 3345 50  0000 L CNN
-F 1 "R" H 8670 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 3300 50  0001 C CNN
-F 3 "~" H 8600 3300 50  0001 C CNN
-	1    8600 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL58
-U 1 1 5EE42D78
-P 11600 3300
-F 0 "RL58" H 11670 3345 50  0000 L CNN
-F 1 "R" H 11670 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11530 3300 50  0001 C CNN
-F 3 "~" H 11600 3300 50  0001 C CNN
-	1    11600 3300
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D58
@@ -1294,81 +720,15 @@ F 3 "~" H 6200 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R RL63
-U 1 1 5EE42DD4
-P 12350 3300
-F 0 "RL63" H 12420 3345 50  0000 L CNN
-F 1 "R" H 12420 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12280 3300 50  0001 C CNN
-F 3 "~" H 12350 3300 50  0001 C CNN
-	1    12350 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D13
+L Device:D D14
 U 1 1 5EE42E0C
 P 5450 3300
-F 0 "D13" V 5500 3500 50  0000 R CNN
+F 0 "D14" V 5500 3500 50  0000 R CNN
 F 1 "D" V 5400 3450 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 5450 3300 50  0001 C CNN
 F 3 "~" H 5450 3300 50  0001 C CNN
 	1    5450 3300
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL19
-U 1 1 5EE42E2C
-P 6350 3300
-F 0 "RL19" H 6420 3345 50  0000 L CNN
-F 1 "R" H 6420 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6280 3300 50  0001 C CNN
-F 3 "~" H 6350 3300 50  0001 C CNN
-	1    6350 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL8
-U 1 1 5EE42E48
-P 4850 3300
-F 0 "RL8" H 4920 3345 50  0000 L CNN
-F 1 "R" H 4920 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4780 3300 50  0001 C CNN
-F 3 "~" H 4850 3300 50  0001 C CNN
-	1    4850 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL24
-U 1 1 5EE42E64
-P 7100 3300
-F 0 "RL24" H 7170 3345 50  0000 L CNN
-F 1 "R" H 7170 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 3300 50  0001 C CNN
-F 3 "~" H 7100 3300 50  0001 C CNN
-	1    7100 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL30
-U 1 1 5EE42E80
-P 7850 3300
-F 0 "RL30" H 7920 3345 50  0000 L CNN
-F 1 "R" H 7920 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7780 3300 50  0001 C CNN
-F 3 "~" H 7850 3300 50  0001 C CNN
-	1    7850 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL13
-U 1 1 5EE42E9C
-P 5600 3300
-F 0 "RL13" H 5670 3345 50  0000 L CNN
-F 1 "R" H 5670 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 3300 50  0001 C CNN
-F 3 "~" H 5600 3300 50  0001 C CNN
-	1    5600 3300
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D2
@@ -1414,31 +774,10 @@ F 3 "~" H 7700 3300 50  0001 C CNN
 	1    7700 3300
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R RL47
-U 1 1 5EE42F38
-P 10100 3300
-F 0 "RL47" H 10170 3345 50  0000 L CNN
-F 1 "R" H 10170 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10030 3300 50  0001 C CNN
-F 3 "~" H 10100 3300 50  0001 C CNN
-	1    10100 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 3100 4850 3100
 Wire Wire Line
 	5450 3450 5450 3500
 Wire Wire Line
-	5600 3100 5600 3150
-Wire Wire Line
 	3950 3450 3950 3500
-Wire Wire Line
-	5550 3100 5600 3100
-Wire Wire Line
-	4850 3450 4850 3550
-Wire Wire Line
-	5600 3450 5600 3550
 Wire Wire Line
 	4700 3150 4750 3150
 Wire Wire Line
@@ -1446,65 +785,29 @@ Wire Wire Line
 Wire Wire Line
 	4700 3450 4700 3500
 Wire Wire Line
-	4850 3100 4850 3150
-Wire Wire Line
 	3950 3150 4000 3150
-Wire Wire Line
-	8550 3100 8600 3100
 Wire Wire Line
 	6200 3150 6250 3150
 Wire Wire Line
 	6950 3450 6950 3500
 Wire Wire Line
-	6350 3100 6350 3150
-Wire Wire Line
 	6200 3450 6200 3500
 Wire Wire Line
 	6950 3150 7000 3150
 Wire Wire Line
-	9350 3450 9350 3550
-Wire Wire Line
-	7850 3450 7850 3550
-Wire Wire Line
-	8600 3100 8600 3150
-Wire Wire Line
-	9350 3100 9350 3150
-Wire Wire Line
-	7800 3100 7850 3100
-Wire Wire Line
 	8450 3450 8450 3500
 Wire Wire Line
-	6300 3100 6350 3100
-Wire Wire Line
-	8600 3450 8600 3550
-Wire Wire Line
 	9200 3450 9200 3500
-Wire Wire Line
-	9300 3100 9350 3100
 Wire Wire Line
 	9200 3150 9250 3150
 Wire Wire Line
 	8450 3150 8500 3150
 Wire Wire Line
-	7100 3450 7100 3550
-Wire Wire Line
-	7100 3100 7100 3150
-Wire Wire Line
-	7850 3100 7850 3150
-Wire Wire Line
-	7050 3100 7100 3100
-Wire Wire Line
 	7700 3150 7750 3150
-Wire Wire Line
-	6350 3450 6350 3550
 Wire Wire Line
 	7700 3450 7700 3500
 Wire Wire Line
 	11450 3150 11500 3150
-Wire Wire Line
-	13100 3100 13100 3150
-Wire Wire Line
-	12350 3450 12350 3550
 Wire Wire Line
 	12200 3150 12250 3150
 Wire Wire Line
@@ -1516,27 +819,7 @@ Wire Wire Line
 Wire Wire Line
 	12950 3450 12950 3500
 Wire Wire Line
-	13050 3100 13100 3100
-Wire Wire Line
 	11450 3450 11450 3500
-Wire Wire Line
-	10100 3100 10100 3150
-Wire Wire Line
-	10050 3100 10100 3100
-Wire Wire Line
-	10100 3450 10100 3550
-Wire Wire Line
-	10800 3100 10850 3100
-Wire Wire Line
-	11550 3100 11600 3100
-Wire Wire Line
-	12300 3100 12350 3100
-Wire Wire Line
-	11600 3100 11600 3150
-Wire Wire Line
-	12350 3100 12350 3150
-Wire Wire Line
-	13100 3450 13100 3550
 Wire Wire Line
 	9950 3450 9950 3500
 Wire Wire Line
@@ -1544,37 +827,13 @@ Wire Wire Line
 Wire Wire Line
 	12200 3450 12200 3500
 Wire Wire Line
-	10850 3100 10850 3150
-Wire Wire Line
-	10850 3450 10850 3550
-Wire Wire Line
-	11600 3450 11600 3550
-Wire Wire Line
-	13800 3100 13850 3100
-Wire Wire Line
-	14550 3100 14600 3100
-Wire Wire Line
-	13700 3150 13750 3150
-Wire Wire Line
-	14600 3450 14600 3550
-Wire Wire Line
-	13850 3450 13850 3550
-Wire Wire Line
-	14600 3100 14600 3150
+	13700 4100 13750 4100
 Wire Wire Line
 	14450 3450 14450 3500
 Wire Wire Line
-	14450 3150 14500 3150
+	14450 2200 14500 2200
 Wire Wire Line
 	13700 3450 13700 3500
-Wire Wire Line
-	13850 3100 13850 3150
-Wire Wire Line
-	14700 2000 14700 2950
-Wire Wire Line
-	13950 2000 13950 2950
-Wire Wire Line
-	13200 2000 13200 2950
 Wire Wire Line
 	12450 2000 12450 2950
 Wire Wire Line
@@ -1582,90 +841,21 @@ Wire Wire Line
 Wire Wire Line
 	10950 2000 10950 2950
 Wire Wire Line
-	10200 2000 10200 2950
-Wire Wire Line
 	9450 2000 9450 2950
-Wire Wire Line
-	8700 2000 8700 2950
-Wire Wire Line
-	7950 2000 7950 2950
 Wire Wire Line
 	7200 2000 7200 2950
 Wire Wire Line
 	6450 2000 6450 2950
-Wire Wire Line
-	5700 2000 5700 2950
-Wire Wire Line
-	4950 2000 4950 2950
-Wire Wire Line
-	5650 2050 5650 3000
-Wire Wire Line
-	6400 2050 6400 3000
-Wire Wire Line
-	7150 2050 7150 3000
-Wire Wire Line
-	7900 2050 7900 3000
-Wire Wire Line
-	8650 2050 8650 3000
-Wire Wire Line
-	9400 2050 9400 3000
-Wire Wire Line
-	10150 2050 10150 3000
-Wire Wire Line
-	10900 2050 10900 3000
-Wire Wire Line
-	11650 2050 11650 3000
-Wire Wire Line
-	12400 2050 12400 3000
-Wire Wire Line
-	13150 2050 13150 3000
-Wire Wire Line
-	13900 2050 13900 3000
-Wire Wire Line
-	14650 2050 14650 3000
 $Comp
 L Device:D D79
 U 1 1 5EE621B1
-P 14450 4250
-F 0 "D79" V 14500 4450 50  0000 R CNN
-F 1 "D" V 14400 4400 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 14450 4250 50  0001 C CNN
-F 3 "~" H 14450 4250 50  0001 C CNN
-	1    14450 4250
+P 14450 3300
+F 0 "D79" V 14500 3500 50  0000 R CNN
+F 1 "D" V 14400 3450 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 14450 3300 50  0001 C CNN
+F 3 "~" H 14450 3300 50  0001 C CNN
+	1    14450 3300
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL69
-U 1 1 5EE621D1
-P 13100 4250
-F 0 "RL69" H 13170 4295 50  0000 L CNN
-F 1 "R" H 13170 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13030 4250 50  0001 C CNN
-F 3 "~" H 13100 4250 50  0001 C CNN
-	1    13100 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL74
-U 1 1 5EE621ED
-P 13850 4250
-F 0 "RL74" H 13920 4295 50  0000 L CNN
-F 1 "R" H 13920 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13780 4250 50  0001 C CNN
-F 3 "~" H 13850 4250 50  0001 C CNN
-	1    13850 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL79
-U 1 1 5EE62209
-P 14600 4250
-F 0 "RL79" H 14670 4295 50  0000 L CNN
-F 1 "R" H 14670 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14530 4250 50  0001 C CNN
-F 3 "~" H 14600 4250 50  0001 C CNN
-	1    14600 4250
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D69
@@ -1681,20 +871,18 @@ $EndComp
 $Comp
 L Device:D D74
 U 1 1 5EE62245
-P 13700 4250
-F 0 "D74" V 13750 4450 50  0000 R CNN
-F 1 "D" V 13650 4400 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 13700 4250 50  0001 C CNN
-F 3 "~" H 13700 4250 50  0001 C CNN
-	1    13700 4250
+P 13700 3300
+F 0 "D74" V 13750 3500 50  0000 R CNN
+F 1 "D" V 13650 3450 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13700 3300 50  0001 C CNN
+F 3 "~" H 13700 3300 50  0001 C CNN
+	1    13700 3300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5450 4450 6200 4450
 Wire Wire Line
 	8450 4450 9200 4450
-Wire Wire Line
-	10700 4450 11450 4450
 Wire Wire Line
 	12950 4450 13700 4450
 Wire Wire Line
@@ -1710,176 +898,93 @@ Wire Wire Line
 Wire Wire Line
 	13700 4450 14450 4450
 Wire Wire Line
-	4850 4500 5600 4500
-Wire Wire Line
-	7850 4500 8600 4500
-Wire Wire Line
 	11450 4450 12200 4450
 Wire Wire Line
-	5600 4500 6350 4500
-Wire Wire Line
-	8600 4500 9350 4500
-Wire Wire Line
-	9350 4500 10100 4500
-Wire Wire Line
-	10100 4500 10850 4500
-Wire Wire Line
 	3950 4450 4700 4450
-Wire Wire Line
-	7100 4500 7850 4500
 Wire Wire Line
 	4700 4450 5450 4450
 Wire Wire Line
 	6950 4450 7700 4450
-Wire Wire Line
-	6350 4500 7100 4500
-Wire Wire Line
-	12350 4500 13100 4500
-Wire Wire Line
-	11600 4500 12350 4500
-Wire Wire Line
-	10850 4500 11600 4500
-Wire Wire Line
-	13100 4500 13850 4500
-Wire Wire Line
-	13850 4500 14600 4500
-Connection ~ 9400 3950
-Connection ~ 10150 3950
-Connection ~ 8650 3950
-Connection ~ 12400 3950
-Connection ~ 6400 3950
-Connection ~ 11650 3950
-Connection ~ 4900 3950
-Connection ~ 13150 3950
-Connection ~ 7900 3950
-Connection ~ 10900 3950
-Connection ~ 14650 3950
-Connection ~ 5650 3950
-Connection ~ 7150 3950
-Connection ~ 13900 3950
 Connection ~ 5450 4450
 Connection ~ 6450 3900
-Connection ~ 12350 4500
 Connection ~ 13700 4450
-Connection ~ 7200 3900
-Connection ~ 6350 4500
-Connection ~ 10700 4450
 Connection ~ 8700 3900
-Connection ~ 12450 3900
 Connection ~ 4700 4450
 Connection ~ 6950 4450
 Connection ~ 12200 4450
 Connection ~ 7700 4450
-Connection ~ 13100 4500
 Connection ~ 8450 4450
-Connection ~ 13850 4500
-Connection ~ 7100 4500
-Connection ~ 10950 3900
-Connection ~ 13950 3900
 Connection ~ 9950 4450
-Connection ~ 14700 3900
-Connection ~ 8600 4500
-Connection ~ 11600 4500
-Connection ~ 7850 4500
 Connection ~ 10200 3900
-Connection ~ 11450 4450
 Connection ~ 4950 3900
 Connection ~ 12950 4450
 Connection ~ 7950 3900
-Connection ~ 9350 4500
-Connection ~ 5600 4500
 Connection ~ 9200 4450
-Connection ~ 11700 3900
-Connection ~ 9450 3900
 Connection ~ 13200 3900
 Connection ~ 6200 4450
 Connection ~ 5700 3900
-Connection ~ 10100 4500
-Connection ~ 10850 4500
 $Comp
-L ai03-schematic_library:MX-LED MX59
+L ai03-schematic_library:MX-NoLED MX59
 U 1 1 5EE622CA
 P 11550 3950
 F 0 "MX59" H 11632 4173 60  0000 C CNN
 F 1 "MX-LED" H 11632 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 10925 3925 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 10925 3925 60  0001 C CNN
 F 3 "" H 10925 3925 60  0001 C CNN
 	1    11550 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX53
-U 1 1 5EE622FE
-P 10800 3950
-F 0 "MX53" H 10882 4173 60  0000 C CNN
-F 1 "MX-LED" H 10882 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 10175 3925 60  0001 C CNN
-F 3 "" H 10175 3925 60  0001 C CNN
-	1    10800 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX48
+L ai03-schematic_library:MX-NoLED MX48
 U 1 1 5EE62332
 P 10050 3950
 F 0 "MX48" H 10132 4173 60  0000 C CNN
 F 1 "MX-LED" H 10132 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 9425 3925 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 9425 3925 60  0001 C CNN
 F 3 "" H 9425 3925 60  0001 C CNN
 	1    10050 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX79
+L ai03-schematic_library:MX-NoLED MX79
 U 1 1 5EE62366
-P 14550 3950
-F 0 "MX79" H 14632 4173 60  0000 C CNN
-F 1 "MX-LED" H 14632 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 13925 3925 60  0001 C CNN
-F 3 "" H 13925 3925 60  0001 C CNN
-	1    14550 3950
+P 14550 3000
+F 0 "MX79" H 14632 3223 60  0000 C CNN
+F 1 "MX-LED" H 14632 3149 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 13925 2975 60  0001 C CNN
+F 3 "" H 13925 2975 60  0001 C CNN
+	1    14550 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX20
+L ai03-schematic_library:MX-NoLED MX20
 U 1 1 5EE6239A
 P 6300 3950
 F 0 "MX20" H 6382 4173 60  0000 C CNN
-F 1 "MX-LED" H 6382 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 5675 3925 60  0001 C CNN
+F 1 "MX-1" H 6382 4099 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 5675 3925 60  0001 C CNN
 F 3 "" H 5675 3925 60  0001 C CNN
 	1    6300 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX31
+L ai03-schematic_library:MX-NoLED MX31
 U 1 1 5EE623CE
 P 7800 3950
 F 0 "MX31" H 7882 4173 60  0000 C CNN
 F 1 "MX-LED" H 7882 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 7175 3925 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 7175 3925 60  0001 C CNN
 F 3 "" H 7175 3925 60  0001 C CNN
 	1    7800 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX25
-U 1 1 5EE62402
-P 7050 3950
-F 0 "MX25" H 7132 4173 60  0000 C CNN
-F 1 "MX-LED" H 7132 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 6425 3925 60  0001 C CNN
-F 3 "" H 6425 3925 60  0001 C CNN
-	1    7050 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX64
+L ai03-schematic_library:MX-NoLED MX64
 U 1 1 5EE62436
 P 12300 3950
 F 0 "MX64" H 12382 4173 60  0000 C CNN
 F 1 "MX-LED" H 12382 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 11675 3925 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 11675 3925 60  0001 C CNN
 F 3 "" H 11675 3925 60  0001 C CNN
 	1    12300 3950
 	1    0    0    -1  
@@ -1896,67 +1001,67 @@ F 3 "~" H 12200 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX74
+L ai03-schematic_library:MX-NoLED MX74
 U 1 1 5EE6248A
-P 13800 3950
-F 0 "MX74" H 13882 4173 60  0000 C CNN
-F 1 "MX-LED" H 13882 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1.5U" H 13175 3925 60  0001 C CNN
-F 3 "" H 13175 3925 60  0001 C CNN
-	1    13800 3950
+P 13800 3000
+F 0 "MX74" H 13882 3223 60  0000 C CNN
+F 1 "MX-LED" H 13882 3149 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-2U-NoLED" H 13175 2975 60  0001 C CNN
+F 3 "" H 13175 2975 60  0001 C CNN
+	1    13800 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX37
+L ai03-schematic_library:MX-NoLED MX37
 U 1 1 5EE624BE
 P 8550 3950
 F 0 "MX37" H 8632 4173 60  0000 C CNN
 F 1 "MX-LED" H 8632 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 7925 3925 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 7925 3925 60  0001 C CNN
 F 3 "" H 7925 3925 60  0001 C CNN
 	1    8550 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX69
+L ai03-schematic_library:MX-NoLED MX69
 U 1 1 5EE624F2
 P 13050 3950
 F 0 "MX69" H 13132 4173 60  0000 C CNN
 F 1 "MX-LED" H 13132 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 12425 3925 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 12425 3925 60  0001 C CNN
 F 3 "" H 12425 3925 60  0001 C CNN
 	1    13050 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX14
+L ai03-schematic_library:MX-NoLED MX15
 U 1 1 5EE62526
 P 5550 3950
-F 0 "MX14" H 5632 4173 60  0000 C CNN
-F 1 "MX-LED" H 5632 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 4925 3925 60  0001 C CNN
+F 0 "MX15" H 5632 4173 60  0000 C CNN
+F 1 "MX-1" H 5632 4099 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 4925 3925 60  0001 C CNN
 F 3 "" H 4925 3925 60  0001 C CNN
 	1    5550 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX42
+L ai03-schematic_library:MX-NoLED MX42
 U 1 1 5EE6255A
 P 9300 3950
 F 0 "MX42" H 9382 4173 60  0000 C CNN
 F 1 "MX-LED" H 9382 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 8675 3925 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 8675 3925 60  0001 C CNN
 F 3 "" H 8675 3925 60  0001 C CNN
 	1    9300 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX9
+L ai03-schematic_library:MX-NoLED MX9
 U 1 1 5EE625C2
 P 4800 3950
 F 0 "MX9" H 4882 4173 60  0000 C CNN
-F 1 "MX-LED" H 4882 4099 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 4175 3925 60  0001 C CNN
+F 1 "MX-1" H 4882 4099 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 4175 3925 60  0001 C CNN
 F 3 "" H 4175 3925 60  0001 C CNN
 	1    4800 3950
 	1    0    0    -1  
@@ -1971,17 +1076,6 @@ F 2 "Diode_SMD:D_SOD-123" H 4700 4250 50  0001 C CNN
 F 3 "~" H 4700 4250 50  0001 C CNN
 	1    4700 4250
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL42
-U 1 1 5EE62621
-P 9350 4250
-F 0 "RL42" H 9420 4295 50  0000 L CNN
-F 1 "R" H 9420 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9280 4250 50  0001 C CNN
-F 3 "~" H 9350 4250 50  0001 C CNN
-	1    9350 4250
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D42
@@ -2006,17 +1100,6 @@ F 3 "~" H 9950 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R RL53
-U 1 1 5EE6267D
-P 10850 4250
-F 0 "RL53" H 10920 4295 50  0000 L CNN
-F 1 "R" H 10920 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10780 4250 50  0001 C CNN
-F 3 "~" H 10850 4250 50  0001 C CNN
-	1    10850 4250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D53
 U 1 1 5EE62699
 P 10700 4250
@@ -2026,28 +1109,6 @@ F 2 "Diode_SMD:D_SOD-123" H 10700 4250 50  0001 C CNN
 F 3 "~" H 10700 4250 50  0001 C CNN
 	1    10700 4250
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL37
-U 1 1 5EE626B9
-P 8600 4250
-F 0 "RL37" H 8670 4295 50  0000 L CNN
-F 1 "R" H 8670 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 4250 50  0001 C CNN
-F 3 "~" H 8600 4250 50  0001 C CNN
-	1    8600 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL59
-U 1 1 5EE626D5
-P 11600 4250
-F 0 "RL59" H 11670 4295 50  0000 L CNN
-F 1 "R" H 11670 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11530 4250 50  0001 C CNN
-F 3 "~" H 11600 4250 50  0001 C CNN
-	1    11600 4250
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D59
@@ -2072,81 +1133,15 @@ F 3 "~" H 6200 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R RL64
-U 1 1 5EE62731
-P 12350 4250
-F 0 "RL64" H 12420 4295 50  0000 L CNN
-F 1 "R" H 12420 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12280 4250 50  0001 C CNN
-F 3 "~" H 12350 4250 50  0001 C CNN
-	1    12350 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D14
+L Device:D D15
 U 1 1 5EE62769
 P 5450 4250
-F 0 "D14" V 5500 4450 50  0000 R CNN
+F 0 "D15" V 5500 4450 50  0000 R CNN
 F 1 "D" V 5400 4400 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 5450 4250 50  0001 C CNN
 F 3 "~" H 5450 4250 50  0001 C CNN
 	1    5450 4250
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL20
-U 1 1 5EE62789
-P 6350 4250
-F 0 "RL20" H 6420 4295 50  0000 L CNN
-F 1 "R" H 6420 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6280 4250 50  0001 C CNN
-F 3 "~" H 6350 4250 50  0001 C CNN
-	1    6350 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL9
-U 1 1 5EE627A5
-P 4850 4250
-F 0 "RL9" H 4920 4295 50  0000 L CNN
-F 1 "R" H 4920 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4780 4250 50  0001 C CNN
-F 3 "~" H 4850 4250 50  0001 C CNN
-	1    4850 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL25
-U 1 1 5EE627C1
-P 7100 4250
-F 0 "RL25" H 7170 4295 50  0000 L CNN
-F 1 "R" H 7170 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 4250 50  0001 C CNN
-F 3 "~" H 7100 4250 50  0001 C CNN
-	1    7100 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL31
-U 1 1 5EE627DD
-P 7850 4250
-F 0 "RL31" H 7920 4295 50  0000 L CNN
-F 1 "R" H 7920 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7780 4250 50  0001 C CNN
-F 3 "~" H 7850 4250 50  0001 C CNN
-	1    7850 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL14
-U 1 1 5EE627F9
-P 5600 4250
-F 0 "RL14" H 5670 4295 50  0000 L CNN
-F 1 "R" H 5670 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 4250 50  0001 C CNN
-F 3 "~" H 5600 4250 50  0001 C CNN
-	1    5600 4250
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D3
@@ -2192,31 +1187,10 @@ F 3 "~" H 7700 4250 50  0001 C CNN
 	1    7700 4250
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R RL48
-U 1 1 5EE62895
-P 10100 4250
-F 0 "RL48" H 10170 4295 50  0000 L CNN
-F 1 "R" H 10170 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10030 4250 50  0001 C CNN
-F 3 "~" H 10100 4250 50  0001 C CNN
-	1    10100 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 4050 4850 4050
 Wire Wire Line
 	5450 4400 5450 4450
 Wire Wire Line
-	5600 4050 5600 4100
-Wire Wire Line
 	3950 4400 3950 4450
-Wire Wire Line
-	5550 4050 5600 4050
-Wire Wire Line
-	4850 4400 4850 4500
-Wire Wire Line
-	5600 4400 5600 4500
 Wire Wire Line
 	4700 4100 4750 4100
 Wire Wire Line
@@ -2224,65 +1198,29 @@ Wire Wire Line
 Wire Wire Line
 	4700 4400 4700 4450
 Wire Wire Line
-	4850 4050 4850 4100
-Wire Wire Line
 	3950 4100 4000 4100
-Wire Wire Line
-	8550 4050 8600 4050
 Wire Wire Line
 	6200 4100 6250 4100
 Wire Wire Line
 	6950 4400 6950 4450
 Wire Wire Line
-	6350 4050 6350 4100
-Wire Wire Line
 	6200 4400 6200 4450
 Wire Wire Line
 	6950 4100 7000 4100
 Wire Wire Line
-	9350 4400 9350 4500
-Wire Wire Line
-	7850 4400 7850 4500
-Wire Wire Line
-	8600 4050 8600 4100
-Wire Wire Line
-	9350 4050 9350 4100
-Wire Wire Line
-	7800 4050 7850 4050
-Wire Wire Line
 	8450 4400 8450 4450
 Wire Wire Line
-	6300 4050 6350 4050
-Wire Wire Line
-	8600 4400 8600 4500
-Wire Wire Line
 	9200 4400 9200 4450
-Wire Wire Line
-	9300 4050 9350 4050
 Wire Wire Line
 	9200 4100 9250 4100
 Wire Wire Line
 	8450 4100 8500 4100
 Wire Wire Line
-	7100 4400 7100 4500
-Wire Wire Line
-	7100 4050 7100 4100
-Wire Wire Line
-	7850 4050 7850 4100
-Wire Wire Line
-	7050 4050 7100 4050
-Wire Wire Line
 	7700 4100 7750 4100
-Wire Wire Line
-	6350 4400 6350 4500
 Wire Wire Line
 	7700 4400 7700 4450
 Wire Wire Line
 	11450 4100 11500 4100
-Wire Wire Line
-	13100 4050 13100 4100
-Wire Wire Line
-	12350 4400 12350 4500
 Wire Wire Line
 	12200 4100 12250 4100
 Wire Wire Line
@@ -2294,27 +1232,7 @@ Wire Wire Line
 Wire Wire Line
 	12950 4400 12950 4450
 Wire Wire Line
-	13050 4050 13100 4050
-Wire Wire Line
 	11450 4400 11450 4450
-Wire Wire Line
-	10100 4050 10100 4100
-Wire Wire Line
-	10050 4050 10100 4050
-Wire Wire Line
-	10100 4400 10100 4500
-Wire Wire Line
-	10800 4050 10850 4050
-Wire Wire Line
-	11550 4050 11600 4050
-Wire Wire Line
-	12300 4050 12350 4050
-Wire Wire Line
-	11600 4050 11600 4100
-Wire Wire Line
-	12350 4050 12350 4100
-Wire Wire Line
-	13100 4400 13100 4500
 Wire Wire Line
 	9950 4400 9950 4450
 Wire Wire Line
@@ -2322,374 +1240,195 @@ Wire Wire Line
 Wire Wire Line
 	12200 4400 12200 4450
 Wire Wire Line
-	10850 4050 10850 4100
-Wire Wire Line
-	10850 4400 10850 4500
-Wire Wire Line
-	11600 4400 11600 4500
-Wire Wire Line
-	13800 4050 13850 4050
-Wire Wire Line
-	14550 4050 14600 4050
-Wire Wire Line
-	13700 4100 13750 4100
-Wire Wire Line
-	14600 4400 14600 4500
-Wire Wire Line
-	13850 4400 13850 4500
-Wire Wire Line
-	14600 4050 14600 4100
+	13700 3150 13750 3150
 Wire Wire Line
 	14450 4400 14450 4450
 Wire Wire Line
-	14450 4100 14500 4100
+	14450 3150 14500 3150
 Wire Wire Line
 	13700 4400 13700 4450
 Wire Wire Line
-	13850 4050 13850 4100
-Wire Wire Line
-	8700 2950 8700 3900
-Wire Wire Line
 	6450 2950 6450 3900
-Wire Wire Line
-	14700 2950 14700 3900
 Wire Wire Line
 	5700 2950 5700 3900
 Wire Wire Line
 	13200 2950 13200 3900
 Wire Wire Line
-	4950 2950 4950 3900
-Wire Wire Line
 	9450 2950 9450 3900
 Wire Wire Line
 	10200 2950 10200 3900
 Wire Wire Line
-	7950 2950 7950 3900
-Wire Wire Line
-	7200 2950 7200 3900
-Wire Wire Line
-	10950 2950 10950 3900
-Wire Wire Line
-	13950 2950 13950 3900
-Wire Wire Line
 	11700 2950 11700 3900
 Wire Wire Line
 	12450 2950 12450 3900
-Wire Wire Line
-	6400 3000 6400 3950
-Wire Wire Line
-	14650 3000 14650 3950
-Wire Wire Line
-	13900 3000 13900 3950
-Wire Wire Line
-	9400 3000 9400 3950
-Wire Wire Line
-	8650 3000 8650 3950
-Wire Wire Line
-	5650 3000 5650 3950
-Wire Wire Line
-	10150 3000 10150 3950
-Wire Wire Line
-	11650 3000 11650 3950
-Wire Wire Line
-	7900 3000 7900 3950
-Wire Wire Line
-	12400 3000 12400 3950
-Wire Wire Line
-	7150 3000 7150 3950
-Wire Wire Line
-	4900 3000 4900 3950
-Wire Wire Line
-	10900 3000 10900 3950
-Wire Wire Line
-	13150 3000 13150 3950
 $Comp
 L Device:D D80
 U 1 1 5EE75B1A
-P 14450 5200
-F 0 "D80" V 14500 5400 50  0000 R CNN
-F 1 "D" V 14400 5350 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 14450 5200 50  0001 C CNN
-F 3 "~" H 14450 5200 50  0001 C CNN
-	1    14450 5200
+P 14450 6150
+F 0 "D80" V 14500 6350 50  0000 R CNN
+F 1 "D" V 14400 6300 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 14450 6150 50  0001 C CNN
+F 3 "~" H 14450 6150 50  0001 C CNN
+	1    14450 6150
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL70
-U 1 1 5EE75B3A
-P 13100 5200
-F 0 "RL70" H 13170 5245 50  0000 L CNN
-F 1 "R" H 13170 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13030 5200 50  0001 C CNN
-F 3 "~" H 13100 5200 50  0001 C CNN
-	1    13100 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL80
-U 1 1 5EE75B72
-P 14600 5200
-F 0 "RL80" H 14670 5245 50  0000 L CNN
-F 1 "R" H 14670 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14530 5200 50  0001 C CNN
-F 3 "~" H 14600 5200 50  0001 C CNN
-	1    14600 5200
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D70
 U 1 1 5EE75B8E
+P 13700 5200
+F 0 "D70" V 13750 5400 50  0000 R CNN
+F 1 "D" V 13650 5350 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13700 5200 50  0001 C CNN
+F 3 "~" H 13700 5200 50  0001 C CNN
+	1    13700 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 5400 6200 5400
+Wire Wire Line
+	6200 5400 6950 5400
+Wire Wire Line
+	4700 5400 5450 5400
+Wire Wire Line
+	6950 5400 7700 5400
+Connection ~ 5450 5400
+Connection ~ 6450 4850
+Connection ~ 7200 4850
+Connection ~ 4700 5400
+Connection ~ 6950 5400
+Connection ~ 7700 5400
+Connection ~ 4950 4850
+Connection ~ 7950 4850
+Connection ~ 6200 5400
+Connection ~ 5700 4850
+$Comp
+L ai03-schematic_library:MX-NoLED MX60
+U 1 1 5EE75C33
+P 12300 4900
+F 0 "MX60" H 12382 5123 60  0000 C CNN
+F 1 "MX-LED" H 12382 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 11675 4875 60  0001 C CNN
+F 3 "" H 11675 4875 60  0001 C CNN
+	1    12300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX54
+U 1 1 5EE75C67
+P 11550 4900
+F 0 "MX54" H 11632 5123 60  0000 C CNN
+F 1 "MX-LED" H 11632 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 10925 4875 60  0001 C CNN
+F 3 "" H 10925 4875 60  0001 C CNN
+	1    11550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX49
+U 1 1 5EE75C9B
+P 10800 4900
+F 0 "MX49" H 10882 5123 60  0000 C CNN
+F 1 "MX-LED" H 10882 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 10175 4875 60  0001 C CNN
+F 3 "" H 10175 4875 60  0001 C CNN
+	1    10800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX80
+U 1 1 5EE75CCF
+P 14550 5850
+F 0 "MX80" H 14632 6073 60  0000 C CNN
+F 1 "MX-LED" H 14632 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 13925 5825 60  0001 C CNN
+F 3 "" H 13925 5825 60  0001 C CNN
+	1    14550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX21
+U 1 1 5EE75D03
+P 6300 4900
+F 0 "MX21" H 6382 5123 60  0000 C CNN
+F 1 "MX-1" H 6382 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 5675 4875 60  0001 C CNN
+F 3 "" H 5675 4875 60  0001 C CNN
+	1    6300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX32
+U 1 1 5EE75D37
+P 7800 4900
+F 0 "MX32" H 7882 5123 60  0000 C CNN
+F 1 "MX-LED" H 7882 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 7175 4875 60  0001 C CNN
+F 3 "" H 7175 4875 60  0001 C CNN
+	1    7800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX26
+U 1 1 5EE75D6B
+P 7050 4900
+F 0 "MX26" H 7132 5123 60  0000 C CNN
+F 1 "MX-LED" H 7132 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 6425 4875 60  0001 C CNN
+F 3 "" H 6425 4875 60  0001 C CNN
+	1    7050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX65
+U 1 1 5EE75D9F
+P 13050 4900
+F 0 "MX65" H 13132 5123 60  0000 C CNN
+F 1 "MX-LED" H 13132 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 12425 4875 60  0001 C CNN
+F 3 "" H 12425 4875 60  0001 C CNN
+	1    13050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D65
+U 1 1 5EE75DD3
 P 12950 5200
-F 0 "D70" V 13000 5400 50  0000 R CNN
+F 0 "D65" V 13000 5400 50  0000 R CNN
 F 1 "D" V 12900 5350 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 12950 5200 50  0001 C CNN
 F 3 "~" H 12950 5200 50  0001 C CNN
 	1    12950 5200
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5450 5400 6200 5400
-Wire Wire Line
-	8450 5400 9200 5400
-Wire Wire Line
-	10700 5400 11450 5400
-Wire Wire Line
-	6200 5400 6950 5400
-Wire Wire Line
-	9200 5400 9950 5400
-Wire Wire Line
-	9950 5400 10700 5400
-Wire Wire Line
-	7700 5400 8450 5400
-Wire Wire Line
-	12200 5400 12950 5400
-Wire Wire Line
-	4850 5450 5600 5450
-Wire Wire Line
-	7850 5450 8600 5450
-Wire Wire Line
-	11450 5400 12200 5400
-Wire Wire Line
-	5600 5450 6350 5450
-Wire Wire Line
-	8600 5450 9350 5450
-Wire Wire Line
-	9350 5450 10100 5450
-Wire Wire Line
-	10100 5450 10850 5450
-Wire Wire Line
-	7100 5450 7850 5450
-Wire Wire Line
-	4700 5400 5450 5400
-Wire Wire Line
-	6950 5400 7700 5400
-Wire Wire Line
-	6350 5450 7100 5450
-Wire Wire Line
-	12350 5450 13100 5450
-Wire Wire Line
-	11600 5450 12350 5450
-Wire Wire Line
-	10850 5450 11600 5450
-Connection ~ 9400 4900
-Connection ~ 10150 4900
-Connection ~ 8650 4900
-Connection ~ 12400 4900
-Connection ~ 6400 4900
-Connection ~ 11650 4900
-Connection ~ 4900 4900
-Connection ~ 13150 4900
-Connection ~ 7900 4900
-Connection ~ 10900 4900
-Connection ~ 14650 4900
-Connection ~ 5650 4900
-Connection ~ 7150 4900
-Connection ~ 5450 5400
-Connection ~ 6450 4850
-Connection ~ 12350 5450
-Connection ~ 7200 4850
-Connection ~ 6350 5450
-Connection ~ 10700 5400
-Connection ~ 8700 4850
-Connection ~ 12450 4850
-Connection ~ 4700 5400
-Connection ~ 6950 5400
-Connection ~ 12200 5400
-Connection ~ 7700 5400
-Connection ~ 13100 5450
-Connection ~ 8450 5400
-Connection ~ 7100 5450
-Connection ~ 10950 4850
-Connection ~ 9950 5400
-Connection ~ 14700 4850
-Connection ~ 8600 5450
-Connection ~ 11600 5450
-Connection ~ 7850 5450
-Connection ~ 10200 4850
-Connection ~ 11450 5400
-Connection ~ 4950 4850
-Connection ~ 12950 5400
-Connection ~ 7950 4850
-Connection ~ 9350 5450
-Connection ~ 5600 5450
-Connection ~ 9200 5400
-Connection ~ 11700 4850
-Connection ~ 9450 4850
-Connection ~ 13200 4850
-Connection ~ 6200 5400
-Connection ~ 5700 4850
-Connection ~ 10100 5450
-Connection ~ 10850 5450
 $Comp
-L ai03-schematic_library:MX-LED MX60
-U 1 1 5EE75C33
-P 11550 4900
-F 0 "MX60" H 11632 5123 60  0000 C CNN
-F 1 "MX-LED" H 11632 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 10925 4875 60  0001 C CNN
-F 3 "" H 10925 4875 60  0001 C CNN
-	1    11550 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX54
-U 1 1 5EE75C67
-P 10800 4900
-F 0 "MX54" H 10882 5123 60  0000 C CNN
-F 1 "MX-LED" H 10882 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 10175 4875 60  0001 C CNN
-F 3 "" H 10175 4875 60  0001 C CNN
-	1    10800 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX49
-U 1 1 5EE75C9B
-P 10050 4900
-F 0 "MX49" H 10132 5123 60  0000 C CNN
-F 1 "MX-LED" H 10132 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 9425 4875 60  0001 C CNN
-F 3 "" H 9425 4875 60  0001 C CNN
-	1    10050 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX80
-U 1 1 5EE75CCF
-P 14550 4900
-F 0 "MX80" H 14632 5123 60  0000 C CNN
-F 1 "MX-LED" H 14632 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 13925 4875 60  0001 C CNN
-F 3 "" H 13925 4875 60  0001 C CNN
-	1    14550 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX21
-U 1 1 5EE75D03
-P 6300 4900
-F 0 "MX21" H 6382 5123 60  0000 C CNN
-F 1 "MX-LED" H 6382 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 5675 4875 60  0001 C CNN
-F 3 "" H 5675 4875 60  0001 C CNN
-	1    6300 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX32
-U 1 1 5EE75D37
-P 7800 4900
-F 0 "MX32" H 7882 5123 60  0000 C CNN
-F 1 "MX-LED" H 7882 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 7175 4875 60  0001 C CNN
-F 3 "" H 7175 4875 60  0001 C CNN
-	1    7800 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX26
-U 1 1 5EE75D6B
-P 7050 4900
-F 0 "MX26" H 7132 5123 60  0000 C CNN
-F 1 "MX-LED" H 7132 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 6425 4875 60  0001 C CNN
-F 3 "" H 6425 4875 60  0001 C CNN
-	1    7050 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX65
-U 1 1 5EE75D9F
-P 12300 4900
-F 0 "MX65" H 12382 5123 60  0000 C CNN
-F 1 "MX-LED" H 12382 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 11675 4875 60  0001 C CNN
-F 3 "" H 11675 4875 60  0001 C CNN
-	1    12300 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D65
-U 1 1 5EE75DD3
-P 12200 5200
-F 0 "D65" V 12250 5400 50  0000 R CNN
-F 1 "D" V 12150 5350 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 12200 5200 50  0001 C CNN
-F 3 "~" H 12200 5200 50  0001 C CNN
-	1    12200 5200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX38
-U 1 1 5EE75E27
-P 8550 4900
-F 0 "MX38" H 8632 5123 60  0000 C CNN
-F 1 "MX-LED" H 8632 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 7925 4875 60  0001 C CNN
-F 3 "" H 7925 4875 60  0001 C CNN
-	1    8550 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX70
+L ai03-schematic_library:MX-NoLED MX70
 U 1 1 5EE75E5B
-P 13050 4900
-F 0 "MX70" H 13132 5123 60  0000 C CNN
-F 1 "MX-LED" H 13132 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-2.25U-ReversedStabilizers" H 12425 4875 60  0001 C CNN
-F 3 "" H 12425 4875 60  0001 C CNN
-	1    13050 4900
+P 13800 4900
+F 0 "MX70" H 13882 5123 60  0000 C CNN
+F 1 "MX-LED" H 13882 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-2.25U-ReversedStabilizers-NoLED" H 13175 4875 60  0001 C CIN
+F 3 "" H 13175 4875 60  0001 C CNN
+	1    13800 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX15
+L ai03-schematic_library:MX-NoLED MX16
 U 1 1 5EE75E8F
 P 5550 4900
-F 0 "MX15" H 5632 5123 60  0000 C CNN
-F 1 "MX-LED" H 5632 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 4925 4875 60  0001 C CNN
+F 0 "MX16" H 5632 5123 60  0000 C CNN
+F 1 "MX-1" H 5632 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 4925 4875 60  0001 C CNN
 F 3 "" H 4925 4875 60  0001 C CNN
 	1    5550 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX43
-U 1 1 5EE75EC3
-P 9300 4900
-F 0 "MX43" H 9382 5123 60  0000 C CNN
-F 1 "MX-LED" H 9382 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 8675 4875 60  0001 C CNN
-F 3 "" H 8675 4875 60  0001 C CNN
-	1    9300 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX10
+L ai03-schematic_library:MX-NoLED MX10
 U 1 1 5EE75F2B
 P 4800 4900
 F 0 "MX10" H 4882 5123 60  0000 C CNN
-F 1 "MX-LED" H 4882 5049 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 4175 4875 60  0001 C CNN
+F 1 "MX-1" H 4882 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 4175 4875 60  0001 C CNN
 F 3 "" H 4175 4875 60  0001 C CNN
 	1    4800 4900
 	1    0    0    -1  
@@ -2706,54 +1445,10 @@ F 3 "~" H 4700 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R RL43
-U 1 1 5EE75F8A
-P 9350 5200
-F 0 "RL43" H 9420 5245 50  0000 L CNN
-F 1 "R" H 9420 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9280 5200 50  0001 C CNN
-F 3 "~" H 9350 5200 50  0001 C CNN
-	1    9350 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D43
-U 1 1 5EE75FA6
-P 9200 5200
-F 0 "D43" V 9250 5400 50  0000 R CNN
-F 1 "D" V 9150 5350 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9200 5200 50  0001 C CNN
-F 3 "~" H 9200 5200 50  0001 C CNN
-	1    9200 5200
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D D49
 U 1 1 5EE75FC6
-P 9950 5200
-F 0 "D49" V 10000 5400 50  0000 R CNN
-F 1 "D" V 9900 5350 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9950 5200 50  0001 C CNN
-F 3 "~" H 9950 5200 50  0001 C CNN
-	1    9950 5200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL54
-U 1 1 5EE75FE6
-P 10850 5200
-F 0 "RL54" H 10920 5245 50  0000 L CNN
-F 1 "R" H 10920 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10780 5200 50  0001 C CNN
-F 3 "~" H 10850 5200 50  0001 C CNN
-	1    10850 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D54
-U 1 1 5EE76002
 P 10700 5200
-F 0 "D54" V 10750 5400 50  0000 R CNN
+F 0 "D49" V 10750 5400 50  0000 R CNN
 F 1 "D" V 10650 5350 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 10700 5200 50  0001 C CNN
 F 3 "~" H 10700 5200 50  0001 C CNN
@@ -2761,36 +1456,25 @@ F 3 "~" H 10700 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R RL38
-U 1 1 5EE76022
-P 8600 5200
-F 0 "RL38" H 8670 5245 50  0000 L CNN
-F 1 "R" H 8670 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 5200 50  0001 C CNN
-F 3 "~" H 8600 5200 50  0001 C CNN
-	1    8600 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL60
-U 1 1 5EE7603E
-P 11600 5200
-F 0 "RL60" H 11670 5245 50  0000 L CNN
-F 1 "R" H 11670 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11530 5200 50  0001 C CNN
-F 3 "~" H 11600 5200 50  0001 C CNN
-	1    11600 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D60
-U 1 1 5EE7605A
+L Device:D D54
+U 1 1 5EE76002
 P 11450 5200
-F 0 "D60" V 11500 5400 50  0000 R CNN
+F 0 "D54" V 11500 5400 50  0000 R CNN
 F 1 "D" V 11400 5350 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 11450 5200 50  0001 C CNN
 F 3 "~" H 11450 5200 50  0001 C CNN
 	1    11450 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D60
+U 1 1 5EE7605A
+P 12200 5200
+F 0 "D60" V 12250 5400 50  0000 R CNN
+F 1 "D" V 12150 5350 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12200 5200 50  0001 C CNN
+F 3 "~" H 12200 5200 50  0001 C CNN
+	1    12200 5200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2805,81 +1489,15 @@ F 3 "~" H 6200 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R RL65
-U 1 1 5EE7609A
-P 12350 5200
-F 0 "RL65" H 12420 5245 50  0000 L CNN
-F 1 "R" H 12420 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12280 5200 50  0001 C CNN
-F 3 "~" H 12350 5200 50  0001 C CNN
-	1    12350 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D15
+L Device:D D16
 U 1 1 5EE760D2
 P 5450 5200
-F 0 "D15" V 5500 5400 50  0000 R CNN
+F 0 "D16" V 5500 5400 50  0000 R CNN
 F 1 "D" V 5400 5350 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 5450 5200 50  0001 C CNN
 F 3 "~" H 5450 5200 50  0001 C CNN
 	1    5450 5200
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL21
-U 1 1 5EE760F2
-P 6350 5200
-F 0 "RL21" H 6420 5245 50  0000 L CNN
-F 1 "R" H 6420 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6280 5200 50  0001 C CNN
-F 3 "~" H 6350 5200 50  0001 C CNN
-	1    6350 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL10
-U 1 1 5EE7610E
-P 4850 5200
-F 0 "RL10" H 4920 5245 50  0000 L CNN
-F 1 "R" H 4920 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4780 5200 50  0001 C CNN
-F 3 "~" H 4850 5200 50  0001 C CNN
-	1    4850 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL26
-U 1 1 5EE7612A
-P 7100 5200
-F 0 "RL26" H 7170 5245 50  0000 L CNN
-F 1 "R" H 7170 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 5200 50  0001 C CNN
-F 3 "~" H 7100 5200 50  0001 C CNN
-	1    7100 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL32
-U 1 1 5EE76146
-P 7850 5200
-F 0 "RL32" H 7920 5245 50  0000 L CNN
-F 1 "R" H 7920 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7780 5200 50  0001 C CNN
-F 3 "~" H 7850 5200 50  0001 C CNN
-	1    7850 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL15
-U 1 1 5EE76162
-P 5600 5200
-F 0 "RL15" H 5670 5245 50  0000 L CNN
-F 1 "R" H 5670 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 5200 50  0001 C CNN
-F 3 "~" H 5600 5200 50  0001 C CNN
-	1    5600 5200
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D26
@@ -2893,17 +1511,6 @@ F 3 "~" H 6950 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D38
-U 1 1 5EE761BE
-P 8450 5200
-F 0 "D38" V 8500 5400 50  0000 R CNN
-F 1 "D" V 8400 5350 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 8450 5200 50  0001 C CNN
-F 3 "~" H 8450 5200 50  0001 C CNN
-	1    8450 5200
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D D32
 U 1 1 5EE761DE
 P 7700 5200
@@ -2914,29 +1521,8 @@ F 3 "~" H 7700 5200 50  0001 C CNN
 	1    7700 5200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R RL49
-U 1 1 5EE761FE
-P 10100 5200
-F 0 "RL49" H 10170 5245 50  0000 L CNN
-F 1 "R" H 10170 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10030 5200 50  0001 C CNN
-F 3 "~" H 10100 5200 50  0001 C CNN
-	1    10100 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 5000 4850 5000
 Wire Wire Line
 	5450 5350 5450 5400
-Wire Wire Line
-	5600 5000 5600 5050
-Wire Wire Line
-	5550 5000 5600 5000
-Wire Wire Line
-	4850 5350 4850 5450
-Wire Wire Line
-	5600 5350 5600 5450
 Wire Wire Line
 	4700 5050 4750 5050
 Wire Wire Line
@@ -2944,201 +1530,59 @@ Wire Wire Line
 Wire Wire Line
 	4700 5350 4700 5400
 Wire Wire Line
-	4850 5000 4850 5050
-Wire Wire Line
-	8550 5000 8600 5000
-Wire Wire Line
 	6200 5050 6250 5050
 Wire Wire Line
 	6950 5350 6950 5400
-Wire Wire Line
-	6350 5000 6350 5050
 Wire Wire Line
 	6200 5350 6200 5400
 Wire Wire Line
 	6950 5050 7000 5050
 Wire Wire Line
-	9350 5350 9350 5450
-Wire Wire Line
-	7850 5350 7850 5450
-Wire Wire Line
-	8600 5000 8600 5050
-Wire Wire Line
-	9350 5000 9350 5050
-Wire Wire Line
-	7800 5000 7850 5000
-Wire Wire Line
-	8450 5350 8450 5400
-Wire Wire Line
-	6300 5000 6350 5000
-Wire Wire Line
-	8600 5350 8600 5450
-Wire Wire Line
-	9200 5350 9200 5400
-Wire Wire Line
-	9300 5000 9350 5000
-Wire Wire Line
-	9200 5050 9250 5050
-Wire Wire Line
-	8450 5050 8500 5050
-Wire Wire Line
-	7100 5350 7100 5450
-Wire Wire Line
-	7100 5000 7100 5050
-Wire Wire Line
-	7850 5000 7850 5050
-Wire Wire Line
-	7050 5000 7100 5000
-Wire Wire Line
 	7700 5050 7750 5050
-Wire Wire Line
-	6350 5350 6350 5450
 Wire Wire Line
 	7700 5350 7700 5400
 Wire Wire Line
-	11450 5050 11500 5050
-Wire Wire Line
-	13100 5000 13100 5050
-Wire Wire Line
-	12350 5350 12350 5450
-Wire Wire Line
 	12200 5050 12250 5050
-Wire Wire Line
-	10700 5050 10750 5050
-Wire Wire Line
-	10700 5350 10700 5400
-Wire Wire Line
-	9950 5050 10000 5050
-Wire Wire Line
-	12950 5350 12950 5400
-Wire Wire Line
-	13050 5000 13100 5000
-Wire Wire Line
-	11450 5350 11450 5400
-Wire Wire Line
-	10100 5000 10100 5050
-Wire Wire Line
-	10050 5000 10100 5000
-Wire Wire Line
-	10100 5350 10100 5450
-Wire Wire Line
-	10800 5000 10850 5000
-Wire Wire Line
-	11550 5000 11600 5000
-Wire Wire Line
-	12300 5000 12350 5000
-Wire Wire Line
-	11600 5000 11600 5050
-Wire Wire Line
-	12350 5000 12350 5050
-Wire Wire Line
-	13100 5350 13100 5450
-Wire Wire Line
-	9950 5350 9950 5400
 Wire Wire Line
 	12950 5050 13000 5050
 Wire Wire Line
+	11450 5050 11500 5050
+Wire Wire Line
+	11450 5350 11450 5400
+Wire Wire Line
+	10700 5050 10750 5050
+Wire Wire Line
+	13700 5350 13700 5400
+Wire Wire Line
 	12200 5350 12200 5400
 Wire Wire Line
-	10850 5000 10850 5050
+	10700 5350 10700 5400
 Wire Wire Line
-	10850 5350 10850 5450
+	13700 5050 13750 5050
 Wire Wire Line
-	11600 5350 11600 5450
-Wire Wire Line
-	14550 5000 14600 5000
-Wire Wire Line
-	14600 5350 14600 5450
-Wire Wire Line
-	14600 5000 14600 5050
+	12950 5350 12950 5400
 Wire Wire Line
 	14450 5350 14450 5400
 Wire Wire Line
-	14450 5050 14500 5050
-Wire Wire Line
-	8700 3900 8700 4850
+	14450 6000 14500 6000
 Wire Wire Line
 	6450 3900 6450 4850
 Wire Wire Line
-	14700 3900 14700 4850
-Wire Wire Line
 	5700 3900 5700 4850
-Wire Wire Line
-	13200 3900 13200 4850
 Wire Wire Line
 	4950 3900 4950 4850
 Wire Wire Line
-	9450 3900 9450 4850
-Wire Wire Line
-	10200 3900 10200 4850
-Wire Wire Line
 	7950 3900 7950 4850
-Wire Wire Line
-	7200 3900 7200 4850
-Wire Wire Line
-	10950 3900 10950 4850
-Wire Wire Line
-	11700 3900 11700 4850
-Wire Wire Line
-	12450 3900 12450 4850
-Wire Wire Line
-	6400 3950 6400 4900
-Wire Wire Line
-	14650 3950 14650 4900
-Wire Wire Line
-	9400 3950 9400 4900
-Wire Wire Line
-	8650 3950 8650 4900
-Wire Wire Line
-	5650 3950 5650 4900
-Wire Wire Line
-	10150 3950 10150 4900
-Wire Wire Line
-	11650 3950 11650 4900
-Wire Wire Line
-	7900 3950 7900 4900
-Wire Wire Line
-	12400 3950 12400 4900
-Wire Wire Line
-	7150 3950 7150 4900
-Wire Wire Line
-	4900 3950 4900 4900
-Wire Wire Line
-	10900 3950 10900 4900
-Wire Wire Line
-	13150 3950 13150 4900
 $Comp
 L Device:D D81
 U 1 1 5EE9174B
-P 14450 6150
-F 0 "D81" V 14500 6350 50  0000 R CNN
-F 1 "D" V 14400 6300 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 14450 6150 50  0001 C CNN
-F 3 "~" H 14450 6150 50  0001 C CNN
-	1    14450 6150
+P 14450 5200
+F 0 "D81" V 14500 5400 50  0000 R CNN
+F 1 "D" V 14400 5350 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 14450 5200 50  0001 C CNN
+F 3 "~" H 14450 5200 50  0001 C CNN
+	1    14450 5200
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL75
-U 1 1 5EE91787
-P 13850 6150
-F 0 "RL75" H 13920 6195 50  0000 L CNN
-F 1 "R" H 13920 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13780 6150 50  0001 C CNN
-F 3 "~" H 13850 6150 50  0001 C CNN
-	1    13850 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL81
-U 1 1 5EE917A3
-P 14600 6150
-F 0 "RL81" H 14670 6195 50  0000 L CNN
-F 1 "R" H 14670 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14530 6150 50  0001 C CNN
-F 3 "~" H 14600 6150 50  0001 C CNN
-	1    14600 6150
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D75
@@ -3154,233 +1598,125 @@ $EndComp
 Wire Wire Line
 	5450 6350 6200 6350
 Wire Wire Line
-	8450 6350 9200 6350
-Wire Wire Line
-	10700 6350 11450 6350
-Wire Wire Line
 	6200 6350 6950 6350
-Wire Wire Line
-	9200 6350 9950 6350
-Wire Wire Line
-	9950 6350 10700 6350
-Wire Wire Line
-	7700 6350 8450 6350
 Wire Wire Line
 	13700 6350 14450 6350
 Wire Wire Line
-	4850 6400 5600 6400
-Wire Wire Line
-	7850 6400 8600 6400
-Wire Wire Line
-	11450 6350 12200 6350
-Wire Wire Line
-	5600 6400 6350 6400
-Wire Wire Line
-	8600 6400 9350 6400
-Wire Wire Line
-	9350 6400 10100 6400
-Wire Wire Line
-	10100 6400 10850 6400
-Wire Wire Line
-	7100 6400 7850 6400
-Wire Wire Line
-	4700 6350 4850 6350
-Wire Wire Line
 	6950 6350 7700 6350
-Wire Wire Line
-	6350 6400 7100 6400
-Wire Wire Line
-	11600 6400 12350 6400
-Wire Wire Line
-	10850 6400 11600 6400
-Wire Wire Line
-	13850 6400 14600 6400
-Connection ~ 9400 5850
-Connection ~ 7900 5850
-Connection ~ 10900 5850
-Connection ~ 14650 5850
-Connection ~ 5650 5850
-Connection ~ 7150 5850
-Connection ~ 13900 5850
 Connection ~ 5450 6350
-Connection ~ 12350 6400
 Connection ~ 13700 6350
 Connection ~ 7200 5800
-Connection ~ 6350 6400
-Connection ~ 10700 6350
 Connection ~ 6950 6350
-Connection ~ 12200 6350
 Connection ~ 7700 6350
-Connection ~ 8450 6350
-Connection ~ 13850 6400
-Connection ~ 7100 6400
-Connection ~ 10950 5800
-Connection ~ 13950 5800
-Connection ~ 9950 6350
-Connection ~ 14700 5800
-Connection ~ 8600 6400
-Connection ~ 11600 6400
-Connection ~ 7850 6400
-Connection ~ 11450 6350
 Connection ~ 7950 5800
-Connection ~ 9350 6400
-Connection ~ 5600 6400
-Connection ~ 9200 6350
-Connection ~ 9450 5800
 Connection ~ 6200 6350
 Connection ~ 5700 5800
-Connection ~ 10100 6400
-Connection ~ 10850 6400
 $Comp
-L ai03-schematic_library:MX-LED MX61
+L ai03-schematic_library:MX-NoLED MX61
 U 1 1 5EE91864
-P 11550 5850
-F 0 "MX61" H 11632 6073 60  0000 C CNN
-F 1 "MX-LED" H 11632 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 10925 5825 60  0001 C CNN
-F 3 "" H 10925 5825 60  0001 C CNN
-	1    11550 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX55
-U 1 1 5EE91898
-P 10800 5850
-F 0 "MX55" H 10882 6073 60  0000 C CNN
-F 1 "MX-LED" H 10882 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 10175 5825 60  0001 C CNN
-F 3 "" H 10175 5825 60  0001 C CNN
-	1    10800 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX50
-U 1 1 5EE918CC
-P 10050 5850
-F 0 "MX50" H 10132 6073 60  0000 C CNN
-F 1 "MX-LED" H 10132 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 9425 5825 60  0001 C CNN
-F 3 "" H 9425 5825 60  0001 C CNN
-	1    10050 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX81
-U 1 1 5EE91900
-P 14550 5850
-F 0 "MX81" H 14632 6073 60  0000 C CNN
-F 1 "MX-LED" H 14632 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 13925 5825 60  0001 C CNN
-F 3 "" H 13925 5825 60  0001 C CNN
-	1    14550 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX22
-U 1 1 5EE91934
-P 6300 5850
-F 0 "MX22" H 6382 6073 60  0000 C CNN
-F 1 "MX-LED" H 6382 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 5675 5825 60  0001 C CNN
-F 3 "" H 5675 5825 60  0001 C CNN
-	1    6300 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX33
-U 1 1 5EE91968
-P 7800 5850
-F 0 "MX33" H 7882 6073 60  0000 C CNN
-F 1 "MX-LED" H 7882 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 7175 5825 60  0001 C CNN
-F 3 "" H 7175 5825 60  0001 C CNN
-	1    7800 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX27
-U 1 1 5EE9199C
-P 7050 5850
-F 0 "MX27" H 7132 6073 60  0000 C CNN
-F 1 "MX-LED" H 7132 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 6425 5825 60  0001 C CNN
-F 3 "" H 6425 5825 60  0001 C CNN
-	1    7050 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX66
-U 1 1 5EE919D0
 P 12300 5850
-F 0 "MX66" H 12382 6073 60  0000 C CNN
+F 0 "MX61" H 12382 6073 60  0000 C CNN
 F 1 "MX-LED" H 12382 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1.75U" H 11675 5825 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 11675 5825 60  0001 C CNN
 F 3 "" H 11675 5825 60  0001 C CNN
 	1    12300 5850
 	1    0    0    -1  
 $EndComp
 $Comp
+L ai03-schematic_library:MX-NoLED MX55
+U 1 1 5EE91898
+P 11550 5850
+F 0 "MX55" H 11632 6073 60  0000 C CNN
+F 1 "MX-LED" H 11632 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 10925 5825 60  0001 C CNN
+F 3 "" H 10925 5825 60  0001 C CNN
+	1    11550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX50
+U 1 1 5EE918CC
+P 10800 5850
+F 0 "MX50" H 10882 6073 60  0000 C CNN
+F 1 "MX-LED" H 10882 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 10175 5825 60  0001 C CNN
+F 3 "" H 10175 5825 60  0001 C CNN
+	1    10800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX81
+U 1 1 5EE91900
+P 14550 4900
+F 0 "MX81" H 14632 5123 60  0000 C CNN
+F 1 "MX-LED" H 14632 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 13925 4875 60  0001 C CNN
+F 3 "" H 13925 4875 60  0001 C CNN
+	1    14550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX33
+U 1 1 5EE91968
+P 7800 5850
+F 0 "MX33" H 7882 6073 60  0000 C CNN
+F 1 "MX-LED" H 7882 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 7175 5825 60  0001 C CNN
+F 3 "" H 7175 5825 60  0001 C CNN
+	1    7800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX27
+U 1 1 5EE9199C
+P 7050 5850
+F 0 "MX27" H 7132 6073 60  0000 C CNN
+F 1 "MX-LED" H 7132 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 6425 5825 60  0001 C CNN
+F 3 "" H 6425 5825 60  0001 C CNN
+	1    7050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX66
+U 1 1 5EE919D0
+P 13050 5850
+F 0 "MX66" H 13132 6073 60  0000 C CNN
+F 1 "MX-LED" H 13132 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1.75U-NoLED" H 12425 5825 60  0001 C CNN
+F 3 "" H 12425 5825 60  0001 C CNN
+	1    13050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
 L Device:D D66
 U 1 1 5EE91A04
-P 12200 6150
-F 0 "D66" V 12250 6350 50  0000 R CNN
-F 1 "D" V 12150 6300 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 12200 6150 50  0001 C CNN
-F 3 "~" H 12200 6150 50  0001 C CNN
-	1    12200 6150
+P 12950 6150
+F 0 "D66" V 13000 6350 50  0000 R CNN
+F 1 "D" V 12900 6300 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12950 6150 50  0001 C CNN
+F 3 "~" H 12950 6150 50  0001 C CNN
+	1    12950 6150
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX75
-U 1 1 5EE91A24
-P 13800 5850
-F 0 "MX75" H 13882 6073 60  0000 C CNN
-F 1 "MX-LED" H 13882 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 13175 5825 60  0001 C CNN
-F 3 "" H 13175 5825 60  0001 C CNN
-	1    13800 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX39
-U 1 1 5EE91A58
-P 8550 5850
-F 0 "MX39" H 8632 6073 60  0000 C CNN
-F 1 "MX-LED" H 8632 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 7925 5825 60  0001 C CNN
-F 3 "" H 7925 5825 60  0001 C CNN
-	1    8550 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX16
+L ai03-schematic_library:MX-NoLED MX17
 U 1 1 5EE91AC0
 P 5550 5850
-F 0 "MX16" H 5632 6073 60  0000 C CNN
-F 1 "MX-LED" H 5632 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 4925 5825 60  0001 C CNN
+F 0 "MX17" H 5632 6073 60  0000 C CNN
+F 1 "MX-1" H 5632 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 4925 5825 60  0001 C CNN
 F 3 "" H 4925 5825 60  0001 C CNN
 	1    5550 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX44
-U 1 1 5EE91AF4
-P 9300 5850
-F 0 "MX44" H 9382 6073 60  0000 C CNN
-F 1 "MX-LED" H 9382 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 8675 5825 60  0001 C CNN
-F 3 "" H 8675 5825 60  0001 C CNN
-	1    9300 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX11
+L ai03-schematic_library:MX-NoLED MX11
 U 1 1 5EE91B5C
 P 4800 5850
 F 0 "MX11" H 4882 6073 60  0000 C CNN
-F 1 "MX-LED" H 4882 5999 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 4175 5825 60  0001 C CNN
+F 1 "MX-1" H 4882 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 4175 5825 60  0001 C CNN
 F 3 "" H 4175 5825 60  0001 C CNN
 	1    4800 5850
 	1    0    0    -1  
@@ -3397,54 +1733,10 @@ F 3 "~" H 4700 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R RL44
-U 1 1 5EE91BBB
-P 9350 6150
-F 0 "RL44" H 9420 6195 50  0000 L CNN
-F 1 "R" H 9420 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9280 6150 50  0001 C CNN
-F 3 "~" H 9350 6150 50  0001 C CNN
-	1    9350 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D44
-U 1 1 5EE91BD7
-P 9200 6150
-F 0 "D44" V 9250 6350 50  0000 R CNN
-F 1 "D" V 9150 6300 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9200 6150 50  0001 C CNN
-F 3 "~" H 9200 6150 50  0001 C CNN
-	1    9200 6150
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D D50
 U 1 1 5EE91BF7
-P 9950 6150
-F 0 "D50" V 10000 6350 50  0000 R CNN
-F 1 "D" V 9900 6300 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9950 6150 50  0001 C CNN
-F 3 "~" H 9950 6150 50  0001 C CNN
-	1    9950 6150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL55
-U 1 1 5EE91C17
-P 10850 6150
-F 0 "RL55" H 10920 6195 50  0000 L CNN
-F 1 "R" H 10920 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10780 6150 50  0001 C CNN
-F 3 "~" H 10850 6150 50  0001 C CNN
-	1    10850 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D55
-U 1 1 5EE91C33
 P 10700 6150
-F 0 "D55" V 10750 6350 50  0000 R CNN
+F 0 "D50" V 10750 6350 50  0000 R CNN
 F 1 "D" V 10650 6300 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 10700 6150 50  0001 C CNN
 F 3 "~" H 10700 6150 50  0001 C CNN
@@ -3452,36 +1744,25 @@ F 3 "~" H 10700 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R RL39
-U 1 1 5EE91C53
-P 8600 6150
-F 0 "RL39" H 8670 6195 50  0000 L CNN
-F 1 "R" H 8670 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 6150 50  0001 C CNN
-F 3 "~" H 8600 6150 50  0001 C CNN
-	1    8600 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL61
-U 1 1 5EE91C6F
-P 11600 6150
-F 0 "RL61" H 11670 6195 50  0000 L CNN
-F 1 "R" H 11670 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11530 6150 50  0001 C CNN
-F 3 "~" H 11600 6150 50  0001 C CNN
-	1    11600 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D61
-U 1 1 5EE91C8B
+L Device:D D55
+U 1 1 5EE91C33
 P 11450 6150
-F 0 "D61" V 11500 6350 50  0000 R CNN
+F 0 "D55" V 11500 6350 50  0000 R CNN
 F 1 "D" V 11400 6300 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 11450 6150 50  0001 C CNN
 F 3 "~" H 11450 6150 50  0001 C CNN
 	1    11450 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D61
+U 1 1 5EE91C8B
+P 12200 6150
+F 0 "D61" V 12250 6350 50  0000 R CNN
+F 1 "D" V 12150 6300 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12200 6150 50  0001 C CNN
+F 3 "~" H 12200 6150 50  0001 C CNN
+	1    12200 6150
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -3496,17 +1777,6 @@ F 3 "~" H 6200 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R RL66
-U 1 1 5EE91CCB
-P 12350 6150
-F 0 "RL66" H 12420 6195 50  0000 L CNN
-F 1 "R" H 12420 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12280 6150 50  0001 C CNN
-F 3 "~" H 12350 6150 50  0001 C CNN
-	1    12350 6150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D16
 U 1 1 5EE91D03
 P 5450 6150
@@ -3516,61 +1786,6 @@ F 2 "Diode_SMD:D_SOD-123" H 5450 6150 50  0001 C CNN
 F 3 "~" H 5450 6150 50  0001 C CNN
 	1    5450 6150
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL22
-U 1 1 5EE91D23
-P 6350 6150
-F 0 "RL22" H 6420 6195 50  0000 L CNN
-F 1 "R" H 6420 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6280 6150 50  0001 C CNN
-F 3 "~" H 6350 6150 50  0001 C CNN
-	1    6350 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL11
-U 1 1 5EE91D3F
-P 4850 6150
-F 0 "RL11" H 4920 6195 50  0000 L CNN
-F 1 "R" H 4920 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4780 6150 50  0001 C CNN
-F 3 "~" H 4850 6150 50  0001 C CNN
-	1    4850 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL27
-U 1 1 5EE91D5B
-P 7100 6150
-F 0 "RL27" H 7170 6195 50  0000 L CNN
-F 1 "R" H 7170 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 6150 50  0001 C CNN
-F 3 "~" H 7100 6150 50  0001 C CNN
-	1    7100 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL33
-U 1 1 5EE91D77
-P 7850 6150
-F 0 "RL33" H 7920 6195 50  0000 L CNN
-F 1 "R" H 7920 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7780 6150 50  0001 C CNN
-F 3 "~" H 7850 6150 50  0001 C CNN
-	1    7850 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL16
-U 1 1 5EE91D93
-P 5600 6150
-F 0 "RL16" H 5670 6195 50  0000 L CNN
-F 1 "R" H 5670 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 6150 50  0001 C CNN
-F 3 "~" H 5600 6150 50  0001 C CNN
-	1    5600 6150
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D27
@@ -3584,17 +1799,6 @@ F 3 "~" H 6950 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D39
-U 1 1 5EE91DEF
-P 8450 6150
-F 0 "D39" V 8500 6350 50  0000 R CNN
-F 1 "D" V 8400 6300 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 8450 6150 50  0001 C CNN
-F 3 "~" H 8450 6150 50  0001 C CNN
-	1    8450 6150
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D D33
 U 1 1 5EE91E0F
 P 7700 6150
@@ -3605,27 +1809,8 @@ F 3 "~" H 7700 6150 50  0001 C CNN
 	1    7700 6150
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R RL50
-U 1 1 5EE91E2F
-P 10100 6150
-F 0 "RL50" H 10170 6195 50  0000 L CNN
-F 1 "R" H 10170 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10030 6150 50  0001 C CNN
-F 3 "~" H 10100 6150 50  0001 C CNN
-	1    10100 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 5950 4850 5950
 Wire Wire Line
 	5450 6300 5450 6350
-Wire Wire Line
-	5600 5950 5600 6000
-Wire Wire Line
-	5550 5950 5600 5950
-Wire Wire Line
-	5600 6300 5600 6400
 Wire Wire Line
 	4700 6000 4750 6000
 Wire Wire Line
@@ -3633,165 +1818,51 @@ Wire Wire Line
 Wire Wire Line
 	4700 6300 4700 6350
 Wire Wire Line
-	4850 5950 4850 6000
-Wire Wire Line
-	8550 5950 8600 5950
-Wire Wire Line
 	6200 6000 6250 6000
 Wire Wire Line
 	6950 6300 6950 6350
-Wire Wire Line
-	6350 5950 6350 6000
 Wire Wire Line
 	6200 6300 6200 6350
 Wire Wire Line
 	6950 6000 7000 6000
 Wire Wire Line
-	9350 6300 9350 6400
-Wire Wire Line
-	7850 6300 7850 6400
-Wire Wire Line
-	8600 5950 8600 6000
-Wire Wire Line
-	9350 5950 9350 6000
-Wire Wire Line
-	7800 5950 7850 5950
-Wire Wire Line
-	8450 6300 8450 6350
-Wire Wire Line
-	6300 5950 6350 5950
-Wire Wire Line
-	8600 6300 8600 6400
-Wire Wire Line
-	9200 6300 9200 6350
-Wire Wire Line
-	9300 5950 9350 5950
-Wire Wire Line
-	9200 6000 9250 6000
-Wire Wire Line
-	8450 6000 8500 6000
-Wire Wire Line
-	7100 6300 7100 6400
-Wire Wire Line
-	7100 5950 7100 6000
-Wire Wire Line
-	7850 5950 7850 6000
-Wire Wire Line
-	7050 5950 7100 5950
-Wire Wire Line
 	7700 6000 7750 6000
-Wire Wire Line
-	6350 6300 6350 6400
 Wire Wire Line
 	7700 6300 7700 6350
 Wire Wire Line
-	11450 6000 11500 6000
-Wire Wire Line
-	12350 6300 12350 6400
-Wire Wire Line
 	12200 6000 12250 6000
 Wire Wire Line
-	10700 6000 10750 6000
+	12950 6000 13000 6000
 Wire Wire Line
-	10700 6300 10700 6350
-Wire Wire Line
-	9950 6000 10000 6000
+	11450 6000 11500 6000
 Wire Wire Line
 	11450 6300 11450 6350
 Wire Wire Line
-	10100 5950 10100 6000
-Wire Wire Line
-	10050 5950 10100 5950
-Wire Wire Line
-	10100 6300 10100 6400
-Wire Wire Line
-	10800 5950 10850 5950
-Wire Wire Line
-	11550 5950 11600 5950
-Wire Wire Line
-	12300 5950 12350 5950
-Wire Wire Line
-	11600 5950 11600 6000
-Wire Wire Line
-	12350 5950 12350 6000
-Wire Wire Line
-	9950 6300 9950 6350
+	10700 6000 10750 6000
 Wire Wire Line
 	12200 6300 12200 6350
 Wire Wire Line
-	10850 5950 10850 6000
+	10700 6300 10700 6350
 Wire Wire Line
-	10850 6300 10850 6400
-Wire Wire Line
-	11600 6300 11600 6400
-Wire Wire Line
-	13800 5950 13850 5950
-Wire Wire Line
-	14550 5950 14600 5950
+	12950 6300 12950 6350
 Wire Wire Line
 	13700 6000 13750 6000
 Wire Wire Line
-	14600 6300 14600 6400
-Wire Wire Line
-	13850 6300 13850 6400
-Wire Wire Line
-	14600 5950 14600 6000
-Wire Wire Line
 	14450 6300 14450 6350
 Wire Wire Line
-	14450 6000 14500 6000
+	14450 5050 14500 5050
 Wire Wire Line
 	13700 6300 13700 6350
 Wire Wire Line
-	13850 5950 13850 6000
-Wire Wire Line
-	8700 4850 8700 5800
-Wire Wire Line
 	6450 4850 6450 5800
-Wire Wire Line
-	14700 4850 14700 5800
 Wire Wire Line
 	5700 4850 5700 5800
 Wire Wire Line
 	4950 4850 4950 5800
 Wire Wire Line
-	9450 4850 9450 5800
-Wire Wire Line
-	10200 4850 10200 5800
-Wire Wire Line
 	7950 4850 7950 5800
 Wire Wire Line
 	7200 4850 7200 5800
-Wire Wire Line
-	10950 4850 10950 5800
-Wire Wire Line
-	11700 4850 11700 5800
-Wire Wire Line
-	12450 4850 12450 5800
-Wire Wire Line
-	6400 4900 6400 5850
-Wire Wire Line
-	14650 4900 14650 5850
-Wire Wire Line
-	9400 4900 9400 5850
-Wire Wire Line
-	8650 4900 8650 5850
-Wire Wire Line
-	5650 4900 5650 5850
-Wire Wire Line
-	10150 4900 10150 5850
-Wire Wire Line
-	11650 4900 11650 5850
-Wire Wire Line
-	7900 4900 7900 5850
-Wire Wire Line
-	12400 4900 12400 5850
-Wire Wire Line
-	7150 4900 7150 5850
-Wire Wire Line
-	4900 4900 4900 5850
-Wire Wire Line
-	10900 4900 10900 5850
 $Comp
 L Device:D D82
 U 1 1 5EE9DCB0
@@ -3802,39 +1873,6 @@ F 2 "Diode_SMD:D_SOD-123" H 14450 7100 50  0001 C CNN
 F 3 "~" H 14450 7100 50  0001 C CNN
 	1    14450 7100
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL71
-U 1 1 5EE9DCD0
-P 13100 7100
-F 0 "RL71" H 13170 7145 50  0000 L CNN
-F 1 "R" H 13170 7055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13030 7100 50  0001 C CNN
-F 3 "~" H 13100 7100 50  0001 C CNN
-	1    13100 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL76
-U 1 1 5EE9DCEC
-P 13850 7100
-F 0 "RL76" H 13920 7145 50  0000 L CNN
-F 1 "R" H 13920 7055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13780 7100 50  0001 C CNN
-F 3 "~" H 13850 7100 50  0001 C CNN
-	1    13850 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL82
-U 1 1 5EE9DD08
-P 14600 7100
-F 0 "RL82" H 14670 7145 50  0000 L CNN
-F 1 "R" H 14670 7055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14530 7100 50  0001 C CNN
-F 3 "~" H 14600 7100 50  0001 C CNN
-	1    14600 7100
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D71
@@ -3863,145 +1901,88 @@ Wire Wire Line
 Wire Wire Line
 	13700 7300 14450 7300
 Wire Wire Line
-	7100 7350 7850 7350
-Wire Wire Line
 	6950 7300 7700 7300
-Wire Wire Line
-	13100 7350 13850 7350
-Wire Wire Line
-	13850 7350 14600 7350
 Connection ~ 5450 7300
 Connection ~ 13700 7300
 Connection ~ 10700 7300
 Connection ~ 6950 7300
 Connection ~ 7700 7300
-Connection ~ 13100 7350
-Connection ~ 13850 7350
-Connection ~ 7100 7350
-Connection ~ 7850 7350
 Connection ~ 12950 7300
-Connection ~ 9350 7350
-Connection ~ 9200 7300
-Connection ~ 10850 7350
 $Comp
-L ai03-schematic_library:MX-LED MX56
+L ai03-schematic_library:MX-NoLED MX56
 U 1 1 5EE9DDFD
 P 10800 6800
 F 0 "MX56" H 10882 7023 60  0000 C CNN
-F 1 "MX-LED" H 10882 6949 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1.5U" H 10175 6775 60  0001 C CNN
+F 1 "MX-1" H 10882 6949 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 10175 6775 60  0001 C CNN
 F 3 "" H 10175 6775 60  0001 C CNN
 	1    10800 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX82
+L ai03-schematic_library:MX-NoLED MX82
 U 1 1 5EE9DE65
 P 14550 6800
 F 0 "MX82" H 14632 7023 60  0000 C CNN
 F 1 "MX-LED" H 14632 6949 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 13925 6775 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 13925 6775 60  0001 C CNN
 F 3 "" H 13925 6775 60  0001 C CNN
 	1    14550 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX34
+L ai03-schematic_library:MX-NoLED MX34
 U 1 1 5EE9DECD
 P 7800 6800
 F 0 "MX34" H 7882 7023 60  0000 C CNN
-F 1 "MX-LED" H 7882 6949 20  0000 C CNN
+F 1 "MX-LED-NoLED" H 7882 6949 20  0000 C CNN
 F 2 "ai03-MX_only:MXOnly-1U" H 7175 6775 60  0001 C CNN
 F 3 "" H 7175 6775 60  0001 C CNN
 	1    7800 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX28
+L ai03-schematic_library:MX-NoLED MX28
 U 1 1 5EE9DF01
 P 7050 6800
 F 0 "MX28" H 7132 7023 60  0000 C CNN
 F 1 "MX-LED" H 7132 6949 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-2U-ReversedStabilizers" H 6425 6775 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-2U-ReversedStabilizers-NoLED" H 6425 6775 60  0001 C CNN
 F 3 "" H 6425 6775 60  0001 C CNN
 	1    7050 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX76
+L ai03-schematic_library:MX-NoLED MX76
 U 1 1 5EE9DF89
 P 13800 6800
 F 0 "MX76" H 13882 7023 60  0000 C CNN
 F 1 "MX-LED" H 13882 6949 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 13175 6775 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 13175 6775 60  0001 C CNN
 F 3 "" H 13175 6775 60  0001 C CNN
 	1    13800 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX71
+L ai03-schematic_library:MX-NoLED MX71
 U 1 1 5EE9DFF1
 P 13050 6800
 F 0 "MX71" H 13132 7023 60  0000 C CNN
 F 1 "MX-LED" H 13132 6949 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1U" H 12425 6775 60  0001 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 12425 6775 60  0001 C CNN
 F 3 "" H 12425 6775 60  0001 C CNN
 	1    13050 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L ai03-schematic_library:MX-LED MX17
+L ai03-schematic_library:MX-NoLED MX18
 U 1 1 5EE9E025
 P 5550 6800
-F 0 "MX17" H 5632 7023 60  0000 C CNN
-F 1 "MX-LED" H 5632 6949 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1.5U" H 4925 6775 60  0001 C CNN
+F 0 "MX18" H 5632 7023 60  0000 C CNN
+F 1 "MX-1.5" H 5632 6949 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1.5U-NoLED" H 4925 6775 60  0001 C CNN
 F 3 "" H 4925 6775 60  0001 C CNN
 	1    5550 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L ai03-schematic_library:MX-LED MX45
-U 1 1 5EE9E059
-P 9300 6800
-F 0 "MX45" H 9382 7023 60  0000 C CNN
-F 1 "MX-LED" H 9382 6949 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-2.75U-ReversedStabilizers" H 8675 6775 60  0001 C CNN
-F 3 "" H 8675 6775 60  0001 C CNN
-	1    9300 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL45
-U 1 1 5EE9E120
-P 9350 7100
-F 0 "RL45" H 9420 7145 50  0000 L CNN
-F 1 "R" H 9420 7055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9280 7100 50  0001 C CNN
-F 3 "~" H 9350 7100 50  0001 C CNN
-	1    9350 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D45
-U 1 1 5EE9E13C
-P 9200 7100
-F 0 "D45" V 9250 7300 50  0000 R CNN
-F 1 "D" V 9150 7250 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9200 7100 50  0001 C CNN
-F 3 "~" H 9200 7100 50  0001 C CNN
-	1    9200 7100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL56
-U 1 1 5EE9E17C
-P 10850 7100
-F 0 "RL56" H 10920 7145 50  0000 L CNN
-F 1 "R" H 10920 7055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10780 7100 50  0001 C CNN
-F 3 "~" H 10850 7100 50  0001 C CNN
-	1    10850 7100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4025,28 +2006,6 @@ F 2 "Diode_SMD:D_SOD-123" H 5450 7100 50  0001 C CNN
 F 3 "~" H 5450 7100 50  0001 C CNN
 	1    5450 7100
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R RL34
-U 1 1 5EE9E2DC
-P 7850 7100
-F 0 "RL34" H 7920 7145 50  0000 L CNN
-F 1 "R" H 7920 7055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7780 7100 50  0001 C CNN
-F 3 "~" H 7850 7100 50  0001 C CNN
-	1    7850 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL17
-U 1 1 5EE9E2F8
-P 5600 7100
-F 0 "RL17" H 5670 7145 50  0000 L CNN
-F 1 "R" H 5670 7055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 7100 50  0001 C CNN
-F 3 "~" H 5600 7100 50  0001 C CNN
-	1    5600 7100
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D28
@@ -4073,45 +2032,15 @@ $EndComp
 Wire Wire Line
 	5450 7250 5450 7300
 Wire Wire Line
-	5600 6900 5600 6950
-Wire Wire Line
-	5550 6900 5600 6900
-Wire Wire Line
-	5600 7250 5600 7350
-Wire Wire Line
 	5450 6950 5500 6950
 Wire Wire Line
 	6950 7250 6950 7300
 Wire Wire Line
 	6950 6950 7000 6950
 Wire Wire Line
-	9350 7250 9350 7350
-Wire Wire Line
-	7850 7250 7850 7350
-Wire Wire Line
-	9350 6900 9350 6950
-Wire Wire Line
-	7800 6900 7850 6900
-Wire Wire Line
-	9200 7250 9200 7300
-Wire Wire Line
-	9300 6900 9350 6900
-Wire Wire Line
-	9200 6950 9250 6950
-Wire Wire Line
-	7100 7250 7100 7350
-Wire Wire Line
-	7100 6900 7100 6950
-Wire Wire Line
-	7850 6900 7850 6950
-Wire Wire Line
-	7050 6900 7100 6900
-Wire Wire Line
 	7700 6950 7750 6950
 Wire Wire Line
 	7700 7250 7700 7300
-Wire Wire Line
-	13100 6900 13100 6950
 Wire Wire Line
 	10700 6950 10750 6950
 Wire Wire Line
@@ -4119,29 +2048,9 @@ Wire Wire Line
 Wire Wire Line
 	12950 7250 12950 7300
 Wire Wire Line
-	13050 6900 13100 6900
-Wire Wire Line
-	10800 6900 10850 6900
-Wire Wire Line
-	13100 7250 13100 7350
-Wire Wire Line
 	12950 6950 13000 6950
 Wire Wire Line
-	10850 6900 10850 6950
-Wire Wire Line
-	10850 7250 10850 7350
-Wire Wire Line
-	13800 6900 13850 6900
-Wire Wire Line
-	14550 6900 14600 6900
-Wire Wire Line
 	13700 6950 13750 6950
-Wire Wire Line
-	14600 7250 14600 7350
-Wire Wire Line
-	13850 7250 13850 7350
-Wire Wire Line
-	14600 6900 14600 6950
 Wire Wire Line
 	14450 7250 14450 7300
 Wire Wire Line
@@ -4149,78 +2058,15 @@ Wire Wire Line
 Wire Wire Line
 	13700 7250 13700 7300
 Wire Wire Line
-	13850 6900 13850 6950
-Wire Wire Line
-	14700 5800 14700 6750
-Wire Wire Line
 	5700 5800 5700 6750
-Wire Wire Line
-	9450 5800 9450 6750
 Wire Wire Line
 	7950 5800 7950 6750
 Wire Wire Line
 	7200 5800 7200 6750
 Wire Wire Line
-	10950 5800 10950 6750
-Wire Wire Line
-	13950 5800 13950 6750
-Wire Wire Line
-	14650 5850 14650 6800
-Wire Wire Line
-	13900 5850 13900 6800
-Wire Wire Line
-	9400 5850 9400 6800
-Wire Wire Line
-	5650 5850 5650 6800
-Wire Wire Line
-	7900 5850 7900 6800
-Wire Wire Line
-	7150 5850 7150 6800
-Wire Wire Line
-	10900 5850 10900 6800
-Wire Wire Line
-	13200 4850 13200 6750
-Wire Wire Line
-	13150 4900 13150 6800
-Wire Wire Line
-	13950 3900 13950 5800
-Wire Wire Line
-	13900 3950 13900 5850
-Wire Wire Line
-	12950 5400 14450 5400
-Wire Wire Line
-	13100 5450 14600 5450
-Wire Wire Line
-	12350 6400 13850 6400
-Wire Wire Line
-	12200 6350 13700 6350
-Wire Wire Line
-	10850 7350 13100 7350
-Wire Wire Line
 	10700 7300 12950 7300
 Wire Wire Line
-	9350 7350 10850 7350
-Wire Wire Line
-	9200 7300 10700 7300
-Wire Wire Line
-	7850 7350 9350 7350
-Wire Wire Line
-	7700 7300 9200 7300
-Wire Wire Line
-	5600 7350 7100 7350
-Wire Wire Line
 	5450 7300 6950 7300
-$Comp
-L Device:R RL28
-U 1 1 5EE9E2C0
-P 7100 7100
-F 0 "RL28" H 7170 7145 50  0000 L CNN
-F 1 "R" H 7170 7055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 7100 50  0001 C CNN
-F 3 "~" H 7100 7100 50  0001 C CNN
-	1    7100 7100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3150 3500 3950 3500
 Text Notes 4000 1900 2    157  ~ 0
@@ -4251,15 +2097,13 @@ Text Notes 12950 1900 2    157  ~ 0
 F12
 Text Notes 13700 1900 2    157  ~ 0
 F13
-Text Notes 14600 1900 2    157  ~ 0
-PGUP
-Text Notes 14500 2900 2    157  ~ 0
+Text Notes 14500 1950 2    157  ~ 0
 DEL
-Text Notes 14600 3850 2    157  ~ 0
+Text Notes 14600 2900 2    157  ~ 0
 HOME
-Text Notes 14500 4800 2    157  ~ 0
+Text Notes 14500 5750 2    157  ~ 0
 END
-Text Notes 14600 5750 2    157  ~ 0
+Text Notes 14600 4800 2    157  ~ 0
 PGDN
 Text Notes 14550 6700 2    157  ~ 0
 RGHT
@@ -4295,7 +2139,7 @@ Text Notes 12150 2900 2    157  ~ 0
 -
 Text Notes 12900 2900 2    157  ~ 0
 =
-Text Notes 13600 2900 2    157  ~ 0
+Text Notes 13600 3850 2    157  ~ 0
 \
 Text Notes 3950 3850 2    157  ~ 0
 TAB
@@ -4323,7 +2167,7 @@ Text Notes 12200 3850 2    157  ~ 0
 [
 Text Notes 12950 3850 2    157  ~ 0
 ]
-Text Notes 13800 3850 2    157  ~ 0
+Text Notes 13800 2900 2    157  ~ 0
 BACK
 Text Notes 4700 4800 2    157  ~ 0
 A
@@ -4335,19 +2179,15 @@ Text Notes 6950 4800 2    157  ~ 0
 F
 Text Notes 7700 4800 2    157  ~ 0
 G
-Text Notes 8450 4800 2    157  ~ 0
-H
-Text Notes 9200 4800 2    157  ~ 0
-J
-Text Notes 9950 4800 2    157  ~ 0
-K
 Text Notes 10700 4800 2    157  ~ 0
-L
+K
 Text Notes 11450 4800 2    157  ~ 0
-;
+L
 Text Notes 12200 4800 2    157  ~ 0
+;
+Text Notes 12950 4800 2    157  ~ 0
 '
-Text Notes 13150 4800 2    157  ~ 0
+Text Notes 13900 4800 2    157  ~ 0
 ENTER
 $Comp
 L Device:D D4
@@ -4372,17 +2212,13 @@ Text Notes 6950 5750 2    157  ~ 0
 V
 Text Notes 7700 5750 2    157  ~ 0
 B
-Text Notes 8450 5750 2    157  ~ 0
-N
-Text Notes 9200 5750 2    157  ~ 0
-M
-Text Notes 9950 5750 2    157  ~ 0
-,
 Text Notes 10700 5750 2    157  ~ 0
-.
+,
 Text Notes 11450 5750 2    157  ~ 0
+.
+Text Notes 12200 5750 2    157  ~ 0
 /
-Text Notes 12350 5750 2    157  ~ 0
+Text Notes 13100 5750 2    157  ~ 0
 SHIFT
 Text Notes 3950 6700 2    157  ~ 0
 CTRL
@@ -4390,72 +2226,8 @@ Text Notes 6950 6700 2    157  ~ 0
 SPACE
 Text Notes 7700 6700 2    157  ~ 0
 FN
-Text Notes 9200 6700 2    157  ~ 0
-SPACE
-Text Notes 10700 6700 2    157  ~ 0
-ALT GR
-$Comp
-L power:VCC #PWR?
-U 1 1 5ECEF4B7
-P 3650 1550
-F 0 "#PWR?" H 3650 1400 50  0001 C CNN
-F 1 "VCC" H 3667 1723 50  0000 C CNN
-F 2 "" H 3650 1550 50  0001 C CNN
-F 3 "" H 3650 1550 50  0001 C CNN
-	1    3650 1550
-	1    0    0    -1  
-$EndComp
 Text Notes 5450 6700 2    157  ~ 0
 ALT
-$Comp
-L ai03-schematic_library:MX-LED MX?
-U 1 1 6107AF6B
-P 4650 8750
-F 0 "MX?" H 4732 8974 60  0000 C CNN
-F 1 "MX-LED" H 4732 8899 20  0000 C CNN
-F 2 "ai03-MX_only:MXOnly-1.5U" H 4025 8725 60  0001 C CNN
-F 3 "" H 4025 8725 60  0001 C CNN
-	1    4650 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RL?
-U 1 1 6107AF71
-P 4700 9050
-F 0 "RL?" H 4770 9095 50  0000 L CNN
-F 1 "R" H 4770 9005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 9050 50  0001 C CNN
-F 3 "~" H 4700 9050 50  0001 C CNN
-	1    4700 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 6107AF77
-P 4550 9050
-F 0 "D?" V 4600 9250 50  0000 R CNN
-F 1 "D" V 4500 9200 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 4550 9050 50  0001 C CNN
-F 3 "~" H 4550 9050 50  0001 C CNN
-	1    4550 9050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4700 9200 4700 9300
-Wire Wire Line
-	4550 9200 4550 9250
-Wire Wire Line
-	4700 8850 4700 8900
-Wire Wire Line
-	4650 8850 4700 8850
-Wire Wire Line
-	4550 8900 4600 8900
-Wire Wire Line
-	4800 7750 4800 8700
-Wire Wire Line
-	4750 7800 4750 8750
-Text Notes 4550 8650 2    157  ~ 0
-WIN
 Connection ~ 3950 4450
 Wire Wire Line
 	3150 4450 3950 4450
@@ -4518,13 +2290,6 @@ Wire Wire Line
 Connection ~ 4700 6350
 Wire Wire Line
 	3950 6350 3950 6300
-Wire Wire Line
-	4850 6300 4850 6350
-Connection ~ 4850 6350
-Wire Wire Line
-	4850 6350 5450 6350
-Wire Wire Line
-	4850 6350 4850 6400
 Text Notes 3950 4800 2    157  ~ 0
 CTRL
 Wire Wire Line
@@ -4606,5 +2371,602 @@ F 3 "~" H 3950 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3650 1550 5650 1550
+	4950 2950 4950 3900
+Wire Wire Line
+	4950 2000 4950 2950
+Connection ~ 4950 2950
+$Comp
+L ai03-schematic_library:MX-NoLED MX8
+U 1 1 5EE42C65
+P 4800 3000
+F 0 "MX8" H 4882 3223 60  0000 C CNN
+F 1 "MX-1" H 4882 3149 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 4175 2975 60  0001 C CNN
+F 3 "" H 4175 2975 60  0001 C CNN
+	1    4800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6350 5450 6350
+Text Notes 4700 6700 2    157  ~ 0
+WIN
+$Comp
+L Device:D D12
+U 1 1 60A0C8AD
+P 4750 7100
+F 0 "D12" V 4800 7300 50  0000 R CNN
+F 1 "D" V 4700 7250 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4750 7100 50  0001 C CNN
+F 3 "~" H 4750 7100 50  0001 C CNN
+	1    4750 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX12
+U 1 1 60A0C8B3
+P 4800 6800
+F 0 "MX12" H 4882 7024 60  0000 C CNN
+F 1 "MX-1.25" H 4882 6949 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1.25U" H 4175 6775 60  0001 C CNN
+F 3 "" H 4175 6775 60  0001 C CNN
+	1    4800 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 7250 4750 7300
+Wire Wire Line
+	4950 5800 4950 6750
+Wire Wire Line
+	5700 2000 5700 2950
+Wire Wire Line
+	5700 1500 5700 2000
+Connection ~ 5700 2000
+$Comp
+L ai03-schematic_library:MX-NoLED MX13
+U 1 1 5EC3FF08
+P 5550 2050
+F 0 "MX13" H 5632 2273 60  0000 C CNN
+F 1 "MX-1" H 5632 2199 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 4925 2025 60  0001 C CNN
+F 3 "" H 4925 2025 60  0001 C CNN
+	1    5550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX22
+U 1 1 5EE91934
+P 6300 5850
+F 0 "MX22" H 6382 6073 60  0000 C CNN
+F 1 "MX-1" H 6382 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 5675 5825 60  0001 C CNN
+F 3 "" H 5675 5825 60  0001 C CNN
+	1    6300 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 3500
+Connection ~ 6200 3500
+Wire Wire Line
+	6200 3500 6950 3500
+Wire Wire Line
+	7950 2950 7950 3900
+Wire Wire Line
+	7950 2000 7950 2950
+Connection ~ 7950 2950
+$Comp
+L ai03-schematic_library:MX-NoLED MX30
+U 1 1 5EE42A71
+P 7800 3000
+F 0 "MX30" H 7882 3223 60  0000 C CNN
+F 1 "MX-LED" H 7882 3149 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 7175 2975 60  0001 C CNN
+F 3 "" H 7175 2975 60  0001 C CNN
+	1    7800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2950 8700 3900
+Wire Wire Line
+	8700 2000 8700 2950
+Connection ~ 8700 2950
+$Comp
+L ai03-schematic_library:MX-NoLED MX36
+U 1 1 5EE42B61
+P 8550 3000
+F 0 "MX36" H 8632 3223 60  0000 C CNN
+F 1 "MX-LED" H 8632 3149 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 7925 2975 60  0001 C CNN
+F 3 "" H 7925 2975 60  0001 C CNN
+	1    8550 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 2000 10200 2950
+Wire Wire Line
+	10200 1500 10200 2000
+Connection ~ 10200 2000
+$Comp
+L ai03-schematic_library:MX-NoLED MX46
+U 1 1 5EC45F60
+P 10050 2050
+F 0 "MX46" H 10132 2273 60  0000 C CNN
+F 1 "MX-LED" H 10132 2199 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 9425 2025 60  0001 C CNN
+F 3 "" H 9425 2025 60  0001 C CNN
+	1    10050 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 11450 4450
+Connection ~ 10700 4450
+Wire Wire Line
+	10700 4450 11450 4450
+Wire Wire Line
+	10950 2950 10950 3900
+Connection ~ 10950 3900
+$Comp
+L ai03-schematic_library:MX-NoLED MX53
+U 1 1 5EE622FE
+P 10800 3950
+F 0 "MX53" H 10882 4173 60  0000 C CNN
+F 1 "MX-LED" H 10882 4099 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 10175 3925 60  0001 C CNN
+F 3 "" H 10175 3925 60  0001 C CNN
+	1    10800 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 12200 3500
+Connection ~ 11450 3500
+Wire Wire Line
+	11450 3500 12200 3500
+Wire Wire Line
+	13200 2000 13200 2950
+Wire Wire Line
+	13200 1500 13200 2000
+Connection ~ 13200 2000
+$Comp
+L ai03-schematic_library:MX-NoLED MX67
+U 1 1 5EC48A14
+P 13050 2050
+F 0 "MX67" H 13132 2273 60  0000 C CNN
+F 1 "MX-LED" H 13132 2199 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 12425 2025 60  0001 C CNN
+F 3 "" H 12425 2025 60  0001 C CNN
+	1    13050 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13950 5800 13950 6750
+Connection ~ 13950 5800
+$Comp
+L ai03-schematic_library:MX-NoLED MX75
+U 1 1 5EE91A24
+P 13800 5850
+F 0 "MX75" H 13882 6073 60  0000 C CNN
+F 1 "MX-LED" H 13882 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 13175 5825 60  0001 C CNN
+F 3 "" H 13175 5825 60  0001 C CNN
+	1    13800 5850
+	1    0    0    -1  
+$EndComp
+Text Notes 14600 3800 2    157  ~ 0
+PGUP
+$Comp
+L Device:D D77
+U 1 1 5ECDEF1E
+P 14450 4250
+F 0 "D77" V 14500 4450 50  0000 R CNN
+F 1 "D" V 14400 4400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 14450 4250 50  0001 C CNN
+F 3 "~" H 14450 4250 50  0001 C CNN
+	1    14450 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ai03-schematic_library:MX-NoLED MX77
+U 1 1 5EC489E0
+P 14550 3950
+F 0 "MX77" H 14632 4173 60  0000 C CNN
+F 1 "MX-LED" H 14632 4099 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 13925 3925 60  0001 C CNN
+F 3 "" H 13925 3925 60  0001 C CNN
+	1    14550 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 4100 14500 4100
+Wire Wire Line
+	14700 1500 14700 2000
+Connection ~ 14700 2000
+Wire Wire Line
+	14700 2000 14700 2950
+Connection ~ 14700 2950
+Wire Wire Line
+	14700 2950 14700 3900
+Connection ~ 14700 3900
+Wire Wire Line
+	14700 3900 14700 4850
+Connection ~ 14700 4850
+Wire Wire Line
+	14700 4850 14700 5800
+Connection ~ 14700 5800
+Wire Wire Line
+	14700 5800 14700 6750
+Wire Wire Line
+	13950 2000 13950 2950
+Connection ~ 13950 2950
+Connection ~ 13700 5400
+Wire Wire Line
+	13700 5400 14450 5400
+Connection ~ 13950 4850
+Wire Wire Line
+	13950 4850 13950 5800
+Wire Wire Line
+	13200 3900 13200 4850
+Connection ~ 13950 3900
+Wire Wire Line
+	13950 3900 13950 4850
+Wire Wire Line
+	13950 2950 13950 3900
+Connection ~ 12950 5400
+Wire Wire Line
+	12950 5400 13700 5400
+Connection ~ 13200 4850
+Wire Wire Line
+	13200 4850 13200 5800
+Connection ~ 12950 6350
+Wire Wire Line
+	12950 6350 13700 6350
+Connection ~ 13200 5800
+Wire Wire Line
+	13200 5800 13200 6750
+Connection ~ 12200 5400
+Wire Wire Line
+	12200 5400 12950 5400
+Wire Wire Line
+	12450 4850 12450 3900
+Connection ~ 12450 3900
+Connection ~ 12200 6350
+Wire Wire Line
+	12200 6350 12950 6350
+Wire Wire Line
+	12450 4850 12450 5800
+Connection ~ 12450 4850
+Connection ~ 11450 5400
+Wire Wire Line
+	11450 5400 12200 5400
+Wire Wire Line
+	11700 4850 11700 3900
+Connection ~ 11700 3900
+Connection ~ 11450 6350
+Wire Wire Line
+	11450 6350 12200 6350
+Wire Wire Line
+	10950 3900 10950 4850
+Wire Wire Line
+	11700 5800 11700 4850
+Connection ~ 11700 4850
+$Comp
+L ai03-schematic_library:MX-NoLED MX?
+U 1 1 60E5526D
+P 12300 6800
+F 0 "MX?" H 12382 7023 60  0000 C CNN
+F 1 "MX-1" H 12382 6949 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 11675 6775 60  0001 C CNN
+F 3 "" H 11675 6775 60  0001 C CNN
+	1    12300 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 60E55273
+P 12200 7100
+F 0 "D?" V 12250 7300 50  0000 R CNN
+F 1 "D" V 12150 7250 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12200 7100 50  0001 C CNN
+F 3 "~" H 12200 7100 50  0001 C CNN
+	1    12200 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12200 6950 12250 6950
+Wire Wire Line
+	12200 7250 12200 7300
+Text Notes 12200 6700 2    157  ~ 0
+Ctrl\n
+$Comp
+L ai03-schematic_library:MX-NoLED MX?
+U 1 1 60E76558
+P 11550 6800
+F 0 "MX?" H 11632 7023 60  0000 C CNN
+F 1 "MX-1" H 11632 6949 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 10925 6775 60  0001 C CNN
+F 3 "" H 10925 6775 60  0001 C CNN
+	1    11550 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 60E7655E
+P 11450 7100
+F 0 "D?" V 11500 7300 50  0000 R CNN
+F 1 "D" V 11400 7250 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11450 7100 50  0001 C CNN
+F 3 "~" H 11450 7100 50  0001 C CNN
+	1    11450 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11450 6950 11500 6950
+Wire Wire Line
+	11450 7250 11450 7300
+Text Notes 11450 6700 2    157  ~ 0
+F14
+Wire Wire Line
+	12450 6750 12450 5800
+Connection ~ 12450 5800
+Wire Wire Line
+	11700 6750 11700 5800
+Connection ~ 11700 5800
+Connection ~ 10700 5400
+Wire Wire Line
+	10700 5400 11450 5400
+Connection ~ 10950 4850
+Wire Wire Line
+	10950 4850 10950 5800
+Connection ~ 10700 6350
+Wire Wire Line
+	10700 6350 11450 6350
+Connection ~ 10950 5800
+Wire Wire Line
+	10950 5800 10950 6750
+$Comp
+L ai03-schematic_library:MX-NoLED MX43
+U 1 1 5EE75EC3
+P 10050 4900
+F 0 "MX43" H 10132 5123 60  0000 C CNN
+F 1 "MX-LED" H 10132 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 9425 4875 60  0001 C CNN
+F 3 "" H 9425 4875 60  0001 C CNN
+	1    10050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 5EE75FA6
+P 9950 5200
+F 0 "D43" V 10000 5400 50  0000 R CNN
+F 1 "D" V 9900 5350 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9950 5200 50  0001 C CNN
+F 3 "~" H 9950 5200 50  0001 C CNN
+	1    9950 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9950 5350 9950 5400
+Wire Wire Line
+	9950 5050 10000 5050
+Text Notes 9950 4800 2    157  ~ 0
+J
+Wire Wire Line
+	9950 5400 10700 5400
+Connection ~ 9950 5400
+Wire Wire Line
+	10200 3900 10200 4850
+Wire Wire Line
+	10200 4850 10200 5800
+Connection ~ 10200 4850
+$Comp
+L ai03-schematic_library:MX-NoLED MX44
+U 1 1 5EE91AF4
+P 10050 5850
+F 0 "MX44" H 10132 6073 60  0000 C CNN
+F 1 "MX-LED" H 10132 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 9425 5825 60  0001 C CNN
+F 3 "" H 9425 5825 60  0001 C CNN
+	1    10050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5EE91BD7
+P 9950 6150
+F 0 "D44" V 10000 6350 50  0000 R CNN
+F 1 "D" V 9900 6300 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9950 6150 50  0001 C CNN
+F 3 "~" H 9950 6150 50  0001 C CNN
+	1    9950 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9950 6300 9950 6350
+Wire Wire Line
+	9950 6000 10000 6000
+Text Notes 9950 5750 2    157  ~ 0
+M
+Wire Wire Line
+	9950 6350 10700 6350
+Connection ~ 9950 6350
+$Comp
+L ai03-schematic_library:MX-NoLED MX38
+U 1 1 5EE75E27
+P 9300 4900
+F 0 "MX38" H 9382 5123 60  0000 C CNN
+F 1 "MX-LED" H 9382 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 8675 4875 60  0001 C CNN
+F 3 "" H 8675 4875 60  0001 C CNN
+	1    9300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5EE761BE
+P 9200 5200
+F 0 "D38" V 9250 5400 50  0000 R CNN
+F 1 "D" V 9150 5350 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9200 5200 50  0001 C CNN
+F 3 "~" H 9200 5200 50  0001 C CNN
+	1    9200 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 5350 9200 5400
+Wire Wire Line
+	9200 5050 9250 5050
+Text Notes 9200 4800 2    157  ~ 0
+H
+Wire Wire Line
+	9200 5400 9950 5400
+Connection ~ 9200 5400
+Wire Wire Line
+	7700 5400 9200 5400
+Wire Wire Line
+	8700 3900 8700 5800
+Wire Wire Line
+	9450 4850 9450 3900
+Connection ~ 9450 3900
+$Comp
+L ai03-schematic_library:MX-NoLED MX39
+U 1 1 5EE91A58
+P 9300 5850
+F 0 "MX39" H 9382 6073 60  0000 C CNN
+F 1 "MX-LED" H 9382 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 8675 5825 60  0001 C CNN
+F 3 "" H 8675 5825 60  0001 C CNN
+	1    9300 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 5EE91DEF
+P 9200 6150
+F 0 "D39" V 9250 6350 50  0000 R CNN
+F 1 "D" V 9150 6300 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9200 6150 50  0001 C CNN
+F 3 "~" H 9200 6150 50  0001 C CNN
+	1    9200 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 6300 9200 6350
+Wire Wire Line
+	9200 6000 9250 6000
+Text Notes 9200 5750 2    157  ~ 0
+N
+Wire Wire Line
+	9200 6350 9950 6350
+Connection ~ 9200 6350
+Wire Wire Line
+	7700 6350 9200 6350
+Wire Wire Line
+	9450 5800 9450 4850
+Connection ~ 9450 4850
+Text Notes 10850 6700 2    157  ~ 0
+ALT GR
+$Comp
+L ai03-schematic_library:MX-NoLED MX45
+U 1 1 5EE9E059
+P 9300 6800
+F 0 "MX45" H 9382 7023 60  0000 C CNN
+F 1 "MX-LED" H 9382 6949 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-2.75U-ReversedStabilizers-NoLED" H 8675 6775 60  0001 C CNN
+F 3 "" H 8675 6775 60  0001 C CNN
+	1    9300 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 5EE9E13C
+P 9200 7100
+F 0 "D45" V 9250 7300 50  0000 R CNN
+F 1 "D" V 9150 7250 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9200 7100 50  0001 C CNN
+F 3 "~" H 9200 7100 50  0001 C CNN
+	1    9200 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 6950 9250 6950
+Text Notes 9200 6700 2    157  ~ 0
+SPACE
+Wire Wire Line
+	9200 7250 9200 7300
+Wire Wire Line
+	7700 7300 9200 7300
+Connection ~ 9200 7300
+Wire Wire Line
+	9200 7300 10700 7300
+Wire Wire Line
+	9450 6750 9450 5800
+Connection ~ 9450 5800
+$Comp
+L ai03-schematic_library:MX-NoLED MX?
+U 1 1 6109F9C6
+P 8550 4900
+F 0 "MX?" H 8632 5123 60  0000 C CNN
+F 1 "MX-1" H 8632 5049 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 7925 4875 60  0001 C CNN
+F 3 "" H 7925 4875 60  0001 C CNN
+	1    8550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6109F9CC
+P 8450 5200
+F 0 "D?" V 8500 5400 50  0000 R CNN
+F 1 "D" V 8400 5350 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8450 5200 50  0001 C CNN
+F 3 "~" H 8450 5200 50  0001 C CNN
+	1    8450 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 5050 8500 5050
+Wire Wire Line
+	8450 5350 8450 5400
+$Comp
+L ai03-schematic_library:MX-NoLED MX?
+U 1 1 610BF540
+P 8550 5850
+F 0 "MX?" H 8632 6073 60  0000 C CNN
+F 1 "MX-1" H 8632 5999 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 7925 5825 60  0001 C CNN
+F 3 "" H 7925 5825 60  0001 C CNN
+	1    8550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 610BF546
+P 8450 6150
+F 0 "D?" V 8500 6350 50  0000 R CNN
+F 1 "D" V 8400 6300 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8450 6150 50  0001 C CNN
+F 3 "~" H 8450 6150 50  0001 C CNN
+	1    8450 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 6000 8500 6000
+Wire Wire Line
+	8450 6300 8450 6350
+Text Notes 8450 4800 2    157  ~ 0
+F14
+Text Notes 8450 5750 2    157  ~ 0
+F15
+Wire Wire Line
+	7200 3900 7200 4850
+Connection ~ 7200 3900
+Wire Wire Line
+	7200 2950 7200 3900
+$Comp
+L ai03-schematic_library:MX-NoLED MX25
+U 1 1 5EE62402
+P 7050 3950
+F 0 "MX25" H 7132 4173 60  0000 C CNN
+F 1 "MX-LED" H 7132 4099 20  0000 C CNN
+F 2 "ai03-MX_only:MXOnly-1U-NoLED" H 6425 3925 60  0001 C CNN
+F 3 "" H 6425 3925 60  0001 C CNN
+	1    7050 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
